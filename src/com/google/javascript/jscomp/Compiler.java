@@ -51,10 +51,12 @@ import com.google.javascript.rhino.Token;
 import com.google.javascript.rhino.TypeIRegistry;
 import com.google.javascript.rhino.jstype.JSTypeRegistry;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.nio.file.FileSystems;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -277,6 +279,14 @@ public class Compiler extends AbstractCompiler {
   private String lastPassName;
 
   private Set<String> externProperties = null;
+  
+  /**
+   *ilyushin
+   * ResultFolder - use for saving results of executions:
+   * - set of passes
+   * - working time of passes
+   */
+  public File ResultFolder;
 
   /**
    * Creates a Compiler that reports errors and warnings to its logger.
