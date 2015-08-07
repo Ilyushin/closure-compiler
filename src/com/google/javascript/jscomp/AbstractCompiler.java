@@ -29,6 +29,7 @@ import com.google.javascript.rhino.Node;
 import com.google.javascript.rhino.TypeIRegistry;
 import com.google.javascript.rhino.jstype.JSTypeRegistry;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -47,6 +48,17 @@ public abstract class AbstractCompiler implements SourceExcerptProvider {
   static final DiagnosticType READ_ERROR = DiagnosticType.error(
       "JSC_READ_ERROR", "Cannot read: {0}");
 
+  /**
+   *ilyushin
+   * ResultFolder - use for saving results of executions:
+   * - set of passes
+   * - working time of passes
+   */
+  public File ResultFolder;
+  public File ResultFile;
+  public String NameSourceFile;
+  //ilyushin
+  
   boolean needsEs6Runtime = false;
 
   /**

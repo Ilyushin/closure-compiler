@@ -4,13 +4,14 @@
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import com.google.javascript.jscomp.CompilationLevel;
 import com.google.javascript.jscomp.Compiler;
 import com.google.javascript.jscomp.CompilerOptions;
 import com.google.javascript.jscomp.SourceFile;
+
+import org.apache.commons.io.FilenameUtils;
 
 public final class closure_run {
 
@@ -21,9 +22,11 @@ public final class closure_run {
 		folderWithTest = new File(pathCurrFolder + "/test_files");
 
 		List<File> listFiles = new ArrayList<File>();
+		String js_ext = "js";
 		if (folderWithTest.exists()) {
 			for (final File fileEntry : folderWithTest.listFiles()) {
-				if (!fileEntry.isDirectory()) {
+				
+				if ((!fileEntry.isDirectory()) && (FilenameUtils.getExtension(fileEntry.getName()).equals(js_ext))) {
 					listFiles.add(fileEntry);
 				}
 			}
@@ -39,10 +42,17 @@ public final class closure_run {
 	 * @return The compiled version of the code.
 	 * @throws IOException
 	 */
-	public static String compile(File sourceFile) throws IOException {
+	public static String compile(File sourceFile, File resultFolder) throws IOException {
 
 		Compiler compiler = new Compiler();
-
+		compiler.ResultFolder = resultFolder;
+		compiler.NameSourceFile = FilenameUtils.removeExtension(sourceFile.getName());
+		File resultFile = new File(compiler.ResultFolder+"/"+"working_time_passes_for_"+compiler.NameSourceFile+".txt");
+		if(!resultFile.exists()) {
+			resultFile.createNewFile();
+		} 
+		compiler.ResultFile = resultFile;
+		
 		CompilerOptions options = new CompilerOptions();
 		// Advanced mode is used here, but additional options could be
 		// set, too.g
@@ -80,7 +90,7 @@ public final class closure_run {
 			if (!listFiles.isEmpty()) {
 				
 				for (File element : listFiles) {
-					String compiledCode = compile(element);
+					String compiledCode = compile(element, resultFolder);
 				}
 			}
 		}

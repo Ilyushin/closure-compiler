@@ -280,13 +280,6 @@ public class Compiler extends AbstractCompiler {
 
   private Set<String> externProperties = null;
   
-  /**
-   *ilyushin
-   * ResultFolder - use for saving results of executions:
-   * - set of passes
-   * - working time of passes
-   */
-  public File ResultFolder;
 
   /**
    * Creates a Compiler that reports errors and warnings to its logger.
