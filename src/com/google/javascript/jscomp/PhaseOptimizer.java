@@ -21,9 +21,6 @@ import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableList;
 import com.google.javascript.rhino.Node;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -212,16 +209,17 @@ class PhaseOptimizer implements CompilerPass {
 		}
 		for (CompilerPass pass : passes) {
 			
+			int sizeBefore = this.compiler.toSource(this.jsRoot).length();
+			
 			long startTime = System.currentTimeMillis();
 			pass.process(externs, root);
 			long stopTime = System.currentTimeMillis();
 		    long elapsedTime = stopTime - startTime;
-		    
-		    BufferedWriter output;
+		   
 			try {
-				output = new BufferedWriter(new FileWriter(this.compiler.ResultFile.getAbsolutePath(), true));
-				output.append(pass.toString()+" working time - "+ String.valueOf(elapsedTime));
-			    output.close();
+				this.compiler.ResultFile.append(this.compiler.NameSourceFile+","
+			+ pass.toString()+","+ String.valueOf(elapsedTime)+","+String.valueOf(sizeBefore)+","+String.valueOf(this.compiler.toSource(this.jsRoot).length()));
+				this.compiler.ResultFile.append("\n");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

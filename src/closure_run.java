@@ -2,6 +2,7 @@
 //package com.bolinfest.closure;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +26,7 @@ public final class closure_run {
 		String js_ext = "js";
 		if (folderWithTest.exists()) {
 			for (final File fileEntry : folderWithTest.listFiles()) {
-				
+
 				if ((!fileEntry.isDirectory()) && (FilenameUtils.getExtension(fileEntry.getName()).equals(js_ext))) {
 					listFiles.add(fileEntry);
 				}
@@ -42,17 +43,14 @@ public final class closure_run {
 	 * @return The compiled version of the code.
 	 * @throws IOException
 	 */
-	public static String compile(File sourceFile, File resultFolder) throws IOException {
+	public static String compile(File sourceFile, File resultFolder, FileWriter resultFile) throws IOException {
 
 		Compiler compiler = new Compiler();
 		compiler.ResultFolder = resultFolder;
 		compiler.NameSourceFile = FilenameUtils.removeExtension(sourceFile.getName());
-		File resultFile = new File(compiler.ResultFolder+"/"+"working_time_passes_for_"+compiler.NameSourceFile+".txt");
-		if(!resultFile.exists()) {
-			resultFile.createNewFile();
-		} 
+
 		compiler.ResultFile = resultFile;
-		
+
 		CompilerOptions options = new CompilerOptions();
 		// Advanced mode is used here, but additional options could be
 		// set, too.g
@@ -86,11 +84,37 @@ public final class closure_run {
 		}
 
 		if (resultFolder.exists()) {
+			FileWriter fileWriter;
+			String pathResultFile = resultFolder + "/" + "working_time_passes.csv";
+			File resultFile = new File(pathResultFile);
+			if (!resultFile.exists()) {
+				// Create a file
+				resultFile.createNewFile();
+			} else {
+				// Clear file
+				fileWriter = new FileWriter(pathResultFile);
+				fileWriter.write("");
+				fileWriter.close();
+			}
+
 			List<File> listFiles = getJSFiles();
 			if (!listFiles.isEmpty()) {
 				
+				fileWriter = new FileWriter(pathResultFile);
+				//Write the CSV file header
+				fileWriter.append("FileName,PassName,Time,SizeBefore,SizeAfter");
+				fileWriter.append("\n");
+				
 				for (File element : listFiles) {
-					String compiledCode = compile(element, resultFolder);
+					compile(element, resultFolder, fileWriter);
+				}
+				
+				try {
+					fileWriter.flush();
+					fileWriter.close();
+				} catch (IOException e) {
+					System.out.println("Error while flushing/closing fileWriter !!!");
+					e.printStackTrace();
 				}
 			}
 		}

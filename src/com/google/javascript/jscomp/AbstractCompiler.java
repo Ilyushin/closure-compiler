@@ -30,6 +30,7 @@ import com.google.javascript.rhino.TypeIRegistry;
 import com.google.javascript.rhino.jstype.JSTypeRegistry;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -55,7 +56,7 @@ public abstract class AbstractCompiler implements SourceExcerptProvider {
    * - working time of passes
    */
   public File ResultFolder;
-  public File ResultFile;
+  public FileWriter ResultFile;
   public String NameSourceFile;
   //ilyushin
   
