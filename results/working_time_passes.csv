@@ -1,0 +1,1801 @@
+FileName,PassName,Time,SizeBefore,SizeAfter
+3d-cube,pass: beforeStandardChecks,0,6076,6076
+3d-cube,pass: checkJsDoc,11,6076,6076
+3d-cube,pass: closureRewriteModule,5,6076,6076
+3d-cube,pass: declaredGlobalExternsOnWindow,2,6076,6076
+3d-cube,pass: checkVariableReferences,32,6076,6076
+3d-cube,pass: closureGoogScopeAliases,12,6076,6076
+3d-cube,pass: closureRewriteClass,8,6076,6076
+3d-cube,pass: checkSideEffects,4,6076,6076
+3d-cube,pass: closurePrimitives,4,6076,6076
+3d-cube,pass: suspiciousCode,7,6076,6076
+3d-cube,pass: checkVars,9,6076,6076
+3d-cube,pass: inferConsts,8,6076,6076
+3d-cube,pass: checkRegExp,2,6076,6076
+3d-cube,pass: Es6StaticInheritance,6,6076,6076
+3d-cube,pass: beforeTypeChecking,0,6076,6076
+3d-cube,pass: checkControlFlow,34,6076,6076
+3d-cube,pass: closureReplaceGetCssName,47,6076,6076
+3d-cube,pass: processDefines,34,6076,6076
+3d-cube,pass: afterStandardChecks,0,6076,6076
+3d-cube,pass: gatherExternProperties,3,6536,6536
+3d-cube,pass: garbageCollectChecks,1,6536,6536
+3d-cube,pass: beforeStandardOptimizations,0,6536,6536
+3d-cube,pass: replaceIdGenerators,8,6536,6536
+3d-cube,pass: optimizeArgumentsArray,6,6536,6536
+3d-cube,pass: closureCodeRemoval,25,6536,6536
+3d-cube,pass: collapseProperties,5,6536,6536
+3d-cube,pass: inferConsts,1,6536,6536
+3d-cube,pass: markPureFunctions,50,6536,6536
+3d-cube,pass: checkConsts,1,6536,6536
+3d-cube,pass: checkConstParams,4,6536,6536
+3d-cube,com.google.javascript.jscomp.PhaseOptimizer$Loop@520d4a4d,145,6536,6218
+3d-cube,pass: smartNamePass,77,6218,6152
+3d-cube,pass: closureOptimizePrimitives,5,6152,6152
+3d-cube,com.google.javascript.jscomp.PhaseOptimizer$Loop@6fb56bdd,4,6152,6152
+3d-cube,pass: devirtualizePrototypeMethods,11,6152,6152
+3d-cube,pass: beforeMainOptimizations,0,6152,6152
+3d-cube,com.google.javascript.jscomp.PhaseOptimizer$Loop@7d7ff5be,215,6152,7474
+3d-cube,pass: beforeModuleMotion,0,7474,7474
+3d-cube,com.google.javascript.jscomp.PhaseOptimizer$Loop@6bf21330,1,7474,7474
+3d-cube,pass: afterModuleMotion,0,7474,7474
+3d-cube,pass: flowSensitiveInlineVariables,44,7474,7436
+3d-cube,com.google.javascript.jscomp.PhaseOptimizer$Loop@3c38ec2e,1,7436,7436
+3d-cube,pass: smartNamePass,9,7436,7436
+3d-cube,pass: collapseAnonymousFunctions,2,7436,7436
+3d-cube,pass: extractPrototypeMemberDeclarations,5,7436,7436
+3d-cube,pass: renameProperties,20,7436,7094
+3d-cube,pass: gatherRawExports,2,7094,7094
+3d-cube,pass: convertToDottedProperties,1,7094,7094
+3d-cube,pass: markUnnormalized,1,7094,7094
+3d-cube,pass: coalesceVariableNames,41,7094,6939
+3d-cube,com.google.javascript.jscomp.PhaseOptimizer$Loop@76f150ac,5,6939,6932
+3d-cube,pass: exploitAssign,2,6932,6881
+3d-cube,pass: collapseVariableDeclarations,10,6881,6765
+3d-cube,pass: denormalize,1,6765,6747
+3d-cube,pass: renameVars,13,6747,3578
+3d-cube,pass: renameLabels,2,3578,3578
+3d-cube,pass: latePeepholeOptimizations,15,3578,3372
+3d-cube,pass: stripSideEffectProtection,3,3372,3372
+3d-cube,pass: sanityCheckAst,14,3372,3372
+3d-cube,pass: sanityCheckVars,1,3372,3372
+3d-morph,pass: beforeStandardChecks,0,503,503
+3d-morph,pass: checkJsDoc,0,503,503
+3d-morph,pass: closureRewriteModule,0,503,503
+3d-morph,pass: declaredGlobalExternsOnWindow,0,503,503
+3d-morph,pass: checkVariableReferences,0,503,503
+3d-morph,pass: closureGoogScopeAliases,0,503,503
+3d-morph,pass: closureRewriteClass,0,503,503
+3d-morph,pass: checkSideEffects,0,503,503
+3d-morph,pass: closurePrimitives,0,503,503
+3d-morph,pass: suspiciousCode,0,503,503
+3d-morph,pass: checkVars,1,503,503
+3d-morph,pass: inferConsts,0,503,503
+3d-morph,pass: checkRegExp,0,503,503
+3d-morph,pass: Es6StaticInheritance,0,503,503
+3d-morph,pass: beforeTypeChecking,0,503,503
+3d-morph,pass: checkControlFlow,0,503,503
+3d-morph,pass: closureReplaceGetCssName,1,503,503
+3d-morph,pass: processDefines,0,503,503
+3d-morph,pass: afterStandardChecks,0,503,503
+3d-morph,pass: gatherExternProperties,0,520,520
+3d-morph,pass: garbageCollectChecks,0,520,520
+3d-morph,pass: beforeStandardOptimizations,0,520,520
+3d-morph,pass: replaceIdGenerators,0,520,520
+3d-morph,pass: optimizeArgumentsArray,0,520,520
+3d-morph,pass: closureCodeRemoval,0,520,520
+3d-morph,pass: collapseProperties,0,520,520
+3d-morph,pass: inferConsts,0,520,520
+3d-morph,pass: markPureFunctions,0,520,520
+3d-morph,pass: checkConsts,0,520,520
+3d-morph,pass: checkConstParams,0,520,520
+3d-morph,com.google.javascript.jscomp.PhaseOptimizer$Loop@520752e6,4,520,463
+3d-morph,pass: smartNamePass,1,463,463
+3d-morph,pass: closureOptimizePrimitives,0,463,463
+3d-morph,com.google.javascript.jscomp.PhaseOptimizer$Loop@31c4a016,0,463,463
+3d-morph,pass: devirtualizePrototypeMethods,0,463,463
+3d-morph,pass: beforeMainOptimizations,0,463,463
+3d-morph,com.google.javascript.jscomp.PhaseOptimizer$Loop@1c3db042,8,463,604
+3d-morph,pass: beforeModuleMotion,0,604,604
+3d-morph,com.google.javascript.jscomp.PhaseOptimizer$Loop@57f18af1,1,604,604
+3d-morph,pass: afterModuleMotion,0,604,604
+3d-morph,pass: flowSensitiveInlineVariables,1,604,604
+3d-morph,com.google.javascript.jscomp.PhaseOptimizer$Loop@35dc8731,0,604,604
+3d-morph,pass: smartNamePass,0,604,604
+3d-morph,pass: collapseAnonymousFunctions,0,604,604
+3d-morph,pass: extractPrototypeMemberDeclarations,0,604,604
+3d-morph,pass: renameProperties,1,604,598
+3d-morph,pass: gatherRawExports,0,598,598
+3d-morph,pass: convertToDottedProperties,0,598,598
+3d-morph,pass: markUnnormalized,0,598,598
+3d-morph,pass: coalesceVariableNames,0,598,598
+3d-morph,com.google.javascript.jscomp.PhaseOptimizer$Loop@586b6eee,0,598,598
+3d-morph,pass: exploitAssign,1,598,596
+3d-morph,pass: collapseVariableDeclarations,0,596,576
+3d-morph,pass: denormalize,0,576,568
+3d-morph,pass: renameVars,0,568,369
+3d-morph,pass: renameLabels,0,369,369
+3d-morph,pass: latePeepholeOptimizations,0,369,359
+3d-morph,pass: stripSideEffectProtection,0,359,359
+3d-morph,pass: sanityCheckAst,0,359,359
+3d-morph,pass: sanityCheckVars,0,359,359
+access-binary-trees,pass: beforeStandardChecks,0,945,945
+access-binary-trees,pass: checkJsDoc,0,945,945
+access-binary-trees,pass: closureRewriteModule,1,945,945
+access-binary-trees,pass: declaredGlobalExternsOnWindow,1,945,945
+access-binary-trees,pass: checkVariableReferences,1,945,945
+access-binary-trees,pass: closureGoogScopeAliases,3,945,945
+access-binary-trees,pass: closureRewriteClass,0,945,945
+access-binary-trees,pass: checkSideEffects,0,945,945
+access-binary-trees,pass: closurePrimitives,1,945,945
+access-binary-trees,pass: suspiciousCode,1,945,945
+access-binary-trees,pass: checkVars,36,945,945
+access-binary-trees,pass: inferConsts,1,945,945
+access-binary-trees,pass: checkRegExp,0,945,945
+access-binary-trees,pass: Es6StaticInheritance,0,945,945
+access-binary-trees,pass: beforeTypeChecking,0,945,945
+access-binary-trees,pass: checkControlFlow,1,945,945
+access-binary-trees,pass: closureReplaceGetCssName,1,945,945
+access-binary-trees,pass: processDefines,0,945,945
+access-binary-trees,pass: afterStandardChecks,0,945,945
+access-binary-trees,pass: gatherExternProperties,0,975,975
+access-binary-trees,pass: garbageCollectChecks,0,975,975
+access-binary-trees,pass: beforeStandardOptimizations,0,975,975
+access-binary-trees,pass: replaceIdGenerators,0,975,975
+access-binary-trees,pass: optimizeArgumentsArray,2,975,975
+access-binary-trees,pass: closureCodeRemoval,1,975,975
+access-binary-trees,pass: collapseProperties,1,975,975
+access-binary-trees,pass: inferConsts,0,975,975
+access-binary-trees,pass: markPureFunctions,1,975,975
+access-binary-trees,pass: checkConsts,0,975,975
+access-binary-trees,pass: checkConstParams,0,975,975
+access-binary-trees,com.google.javascript.jscomp.PhaseOptimizer$Loop@571b70f,13,975,863
+access-binary-trees,pass: smartNamePass,7,863,713
+access-binary-trees,pass: closureOptimizePrimitives,0,713,713
+access-binary-trees,com.google.javascript.jscomp.PhaseOptimizer$Loop@7106ee88,0,713,713
+access-binary-trees,pass: devirtualizePrototypeMethods,1,713,1010
+access-binary-trees,pass: beforeMainOptimizations,0,1010,1010
+access-binary-trees,com.google.javascript.jscomp.PhaseOptimizer$Loop@2291bcb5,5,1010,1010
+access-binary-trees,pass: beforeModuleMotion,1,1010,1010
+access-binary-trees,com.google.javascript.jscomp.PhaseOptimizer$Loop@6aa49ee2,0,1010,1010
+access-binary-trees,pass: afterModuleMotion,0,1010,1010
+access-binary-trees,pass: flowSensitiveInlineVariables,1,1010,1010
+access-binary-trees,com.google.javascript.jscomp.PhaseOptimizer$Loop@533921aa,0,1010,1010
+access-binary-trees,pass: smartNamePass,1,1010,1010
+access-binary-trees,pass: collapseAnonymousFunctions,0,1010,1005
+access-binary-trees,pass: extractPrototypeMemberDeclarations,0,1005,1005
+access-binary-trees,pass: renameProperties,0,1005,977
+access-binary-trees,pass: gatherRawExports,0,977,977
+access-binary-trees,pass: convertToDottedProperties,0,977,977
+access-binary-trees,pass: markUnnormalized,0,977,977
+access-binary-trees,pass: coalesceVariableNames,2,977,977
+access-binary-trees,com.google.javascript.jscomp.PhaseOptimizer$Loop@24bd63ba,1,977,977
+access-binary-trees,pass: exploitAssign,0,977,977
+access-binary-trees,pass: collapseVariableDeclarations,0,977,961
+access-binary-trees,pass: denormalize,0,961,956
+access-binary-trees,pass: renameVars,1,956,351
+access-binary-trees,pass: renameLabels,1,351,351
+access-binary-trees,pass: latePeepholeOptimizations,1,351,348
+access-binary-trees,pass: stripSideEffectProtection,0,348,348
+access-binary-trees,pass: sanityCheckAst,1,348,348
+access-binary-trees,pass: sanityCheckVars,0,348,348
+access-fannkuch,pass: beforeStandardChecks,0,903,903
+access-fannkuch,pass: checkJsDoc,1,903,903
+access-fannkuch,pass: closureRewriteModule,1,903,903
+access-fannkuch,pass: declaredGlobalExternsOnWindow,0,903,903
+access-fannkuch,pass: checkVariableReferences,1,903,903
+access-fannkuch,pass: closureGoogScopeAliases,0,903,903
+access-fannkuch,pass: closureRewriteClass,0,903,903
+access-fannkuch,pass: checkSideEffects,8,903,903
+access-fannkuch,pass: closurePrimitives,0,903,903
+access-fannkuch,pass: suspiciousCode,0,903,903
+access-fannkuch,pass: checkVars,0,903,903
+access-fannkuch,pass: inferConsts,0,903,903
+access-fannkuch,pass: checkRegExp,0,903,903
+access-fannkuch,pass: Es6StaticInheritance,0,903,903
+access-fannkuch,pass: beforeTypeChecking,0,903,903
+access-fannkuch,pass: checkControlFlow,9,903,903
+access-fannkuch,pass: closureReplaceGetCssName,2,903,903
+access-fannkuch,pass: processDefines,0,903,903
+access-fannkuch,pass: afterStandardChecks,0,903,903
+access-fannkuch,pass: gatherExternProperties,0,924,924
+access-fannkuch,pass: garbageCollectChecks,0,924,924
+access-fannkuch,pass: beforeStandardOptimizations,0,924,924
+access-fannkuch,pass: replaceIdGenerators,0,924,924
+access-fannkuch,pass: optimizeArgumentsArray,0,924,924
+access-fannkuch,pass: closureCodeRemoval,1,924,924
+access-fannkuch,pass: collapseProperties,1,924,924
+access-fannkuch,pass: inferConsts,0,924,924
+access-fannkuch,pass: markPureFunctions,2,924,924
+access-fannkuch,pass: checkConsts,0,924,924
+access-fannkuch,pass: checkConstParams,0,924,924
+access-fannkuch,com.google.javascript.jscomp.PhaseOptimizer$Loop@3cd987e2,10,924,863
+access-fannkuch,pass: smartNamePass,1,863,863
+access-fannkuch,pass: closureOptimizePrimitives,1,863,863
+access-fannkuch,com.google.javascript.jscomp.PhaseOptimizer$Loop@153fcc8a,0,863,863
+access-fannkuch,pass: devirtualizePrototypeMethods,2,863,863
+access-fannkuch,pass: beforeMainOptimizations,0,863,863
+access-fannkuch,com.google.javascript.jscomp.PhaseOptimizer$Loop@74814452,23,863,1750
+access-fannkuch,pass: beforeModuleMotion,0,1750,1750
+access-fannkuch,com.google.javascript.jscomp.PhaseOptimizer$Loop@664c5f14,0,1750,1750
+access-fannkuch,pass: afterModuleMotion,0,1750,1750
+access-fannkuch,pass: flowSensitiveInlineVariables,1,1750,1750
+access-fannkuch,com.google.javascript.jscomp.PhaseOptimizer$Loop@5a95ad23,0,1750,1750
+access-fannkuch,pass: smartNamePass,1,1750,1750
+access-fannkuch,pass: collapseAnonymousFunctions,0,1750,1750
+access-fannkuch,pass: extractPrototypeMemberDeclarations,0,1750,1750
+access-fannkuch,pass: renameProperties,0,1750,1750
+access-fannkuch,pass: gatherRawExports,0,1750,1750
+access-fannkuch,pass: convertToDottedProperties,0,1750,1750
+access-fannkuch,pass: markUnnormalized,0,1750,1750
+access-fannkuch,pass: coalesceVariableNames,0,1750,1750
+access-fannkuch,com.google.javascript.jscomp.PhaseOptimizer$Loop@3bcca92b,0,1750,1750
+access-fannkuch,pass: exploitAssign,1,1750,1750
+access-fannkuch,pass: collapseVariableDeclarations,0,1750,1722
+access-fannkuch,pass: denormalize,0,1722,1714
+access-fannkuch,pass: renameVars,0,1714,571
+access-fannkuch,pass: renameLabels,3,571,516
+access-fannkuch,pass: latePeepholeOptimizations,1,516,508
+access-fannkuch,pass: stripSideEffectProtection,0,508,508
+access-fannkuch,pass: sanityCheckAst,0,508,508
+access-fannkuch,pass: sanityCheckVars,0,508,508
+access-nbody,pass: beforeStandardChecks,0,2880,2880
+access-nbody,pass: checkJsDoc,0,2880,2880
+access-nbody,pass: closureRewriteModule,0,2880,2880
+access-nbody,pass: declaredGlobalExternsOnWindow,0,2880,2880
+access-nbody,pass: checkVariableReferences,1,2880,2880
+access-nbody,pass: closureGoogScopeAliases,0,2880,2880
+access-nbody,pass: closureRewriteClass,0,2880,2880
+access-nbody,pass: checkSideEffects,1,2880,2880
+access-nbody,pass: closurePrimitives,0,2880,2880
+access-nbody,pass: suspiciousCode,0,2880,2880
+access-nbody,pass: checkVars,0,2880,2880
+access-nbody,pass: inferConsts,1,2880,2880
+access-nbody,pass: checkRegExp,0,2880,2880
+access-nbody,pass: Es6StaticInheritance,0,2880,2880
+access-nbody,pass: beforeTypeChecking,0,2880,2880
+access-nbody,pass: checkControlFlow,2,2880,2880
+access-nbody,pass: closureReplaceGetCssName,3,2880,2880
+access-nbody,pass: processDefines,1,2880,2880
+access-nbody,pass: afterStandardChecks,0,2880,2880
+access-nbody,pass: gatherExternProperties,1,3138,3138
+access-nbody,pass: garbageCollectChecks,0,3138,3138
+access-nbody,pass: beforeStandardOptimizations,0,3138,3138
+access-nbody,pass: replaceIdGenerators,0,3138,3138
+access-nbody,pass: optimizeArgumentsArray,10,3138,3138
+access-nbody,pass: closureCodeRemoval,1,3138,3138
+access-nbody,pass: collapseProperties,1,3138,3138
+access-nbody,pass: inferConsts,1,3138,3138
+access-nbody,pass: markPureFunctions,2,3138,3138
+access-nbody,pass: checkConsts,0,3138,3138
+access-nbody,pass: checkConstParams,0,3138,3138
+access-nbody,com.google.javascript.jscomp.PhaseOptimizer$Loop@1d4e8e69,25,3138,2923
+access-nbody,pass: smartNamePass,1,2923,2923
+access-nbody,pass: closureOptimizePrimitives,0,2923,2923
+access-nbody,com.google.javascript.jscomp.PhaseOptimizer$Loop@394abde8,1,2923,2923
+access-nbody,pass: devirtualizePrototypeMethods,2,2923,3557
+access-nbody,pass: beforeMainOptimizations,0,3557,3557
+access-nbody,com.google.javascript.jscomp.PhaseOptimizer$Loop@44bd0d5a,22,3557,4249
+access-nbody,pass: beforeModuleMotion,0,4249,4249
+access-nbody,com.google.javascript.jscomp.PhaseOptimizer$Loop@6116942b,7,4249,4249
+access-nbody,pass: afterModuleMotion,0,4249,4249
+access-nbody,pass: flowSensitiveInlineVariables,18,4249,4223
+access-nbody,com.google.javascript.jscomp.PhaseOptimizer$Loop@3830aeb7,1,4223,4189
+access-nbody,pass: smartNamePass,3,4189,4189
+access-nbody,pass: collapseAnonymousFunctions,0,4189,4184
+access-nbody,pass: extractPrototypeMemberDeclarations,1,4184,4184
+access-nbody,pass: renameProperties,0,4184,4045
+access-nbody,pass: gatherRawExports,0,4045,4045
+access-nbody,pass: convertToDottedProperties,1,4045,4045
+access-nbody,pass: markUnnormalized,0,4045,4045
+access-nbody,pass: coalesceVariableNames,2,4045,3812
+access-nbody,com.google.javascript.jscomp.PhaseOptimizer$Loop@74985209,4,3812,3812
+access-nbody,pass: exploitAssign,1,3812,3812
+access-nbody,pass: collapseVariableDeclarations,1,3812,3719
+access-nbody,pass: denormalize,0,3719,3707
+access-nbody,pass: renameVars,1,3707,1649
+access-nbody,pass: renameLabels,0,1649,1649
+access-nbody,pass: latePeepholeOptimizations,1,1649,1619
+access-nbody,pass: stripSideEffectProtection,0,1619,1619
+access-nbody,pass: sanityCheckAst,0,1619,1619
+access-nbody,pass: sanityCheckVars,0,1619,1619
+access-nsieve,pass: beforeStandardChecks,0,561,561
+access-nsieve,pass: checkJsDoc,0,561,561
+access-nsieve,pass: closureRewriteModule,0,561,561
+access-nsieve,pass: declaredGlobalExternsOnWindow,0,561,561
+access-nsieve,pass: checkVariableReferences,0,561,561
+access-nsieve,pass: closureGoogScopeAliases,0,561,561
+access-nsieve,pass: closureRewriteClass,0,561,561
+access-nsieve,pass: checkSideEffects,0,561,561
+access-nsieve,pass: closurePrimitives,0,561,561
+access-nsieve,pass: suspiciousCode,0,561,561
+access-nsieve,pass: checkVars,0,561,561
+access-nsieve,pass: inferConsts,1,561,561
+access-nsieve,pass: checkRegExp,0,561,561
+access-nsieve,pass: Es6StaticInheritance,0,561,561
+access-nsieve,pass: beforeTypeChecking,0,561,561
+access-nsieve,pass: checkControlFlow,0,561,561
+access-nsieve,pass: closureReplaceGetCssName,2,561,561
+access-nsieve,pass: processDefines,0,561,561
+access-nsieve,pass: afterStandardChecks,0,561,561
+access-nsieve,pass: gatherExternProperties,0,632,632
+access-nsieve,pass: garbageCollectChecks,0,632,632
+access-nsieve,pass: beforeStandardOptimizations,1,632,632
+access-nsieve,pass: replaceIdGenerators,0,632,632
+access-nsieve,pass: optimizeArgumentsArray,0,632,632
+access-nsieve,pass: closureCodeRemoval,0,632,632
+access-nsieve,pass: collapseProperties,0,632,632
+access-nsieve,pass: inferConsts,0,632,632
+access-nsieve,pass: markPureFunctions,0,632,632
+access-nsieve,pass: checkConsts,0,632,632
+access-nsieve,pass: checkConstParams,0,632,632
+access-nsieve,com.google.javascript.jscomp.PhaseOptimizer$Loop@4e145627,2,632,436
+access-nsieve,pass: smartNamePass,0,436,436
+access-nsieve,pass: closureOptimizePrimitives,0,436,436
+access-nsieve,com.google.javascript.jscomp.PhaseOptimizer$Loop@1cd9e5c7,0,436,436
+access-nsieve,pass: devirtualizePrototypeMethods,0,436,436
+access-nsieve,pass: beforeMainOptimizations,0,436,436
+access-nsieve,com.google.javascript.jscomp.PhaseOptimizer$Loop@4c2b0ce7,8,436,826
+access-nsieve,pass: beforeModuleMotion,0,826,826
+access-nsieve,com.google.javascript.jscomp.PhaseOptimizer$Loop@257b5599,0,826,826
+access-nsieve,pass: afterModuleMotion,0,826,826
+access-nsieve,pass: flowSensitiveInlineVariables,0,826,826
+access-nsieve,com.google.javascript.jscomp.PhaseOptimizer$Loop@474fa436,0,826,826
+access-nsieve,pass: smartNamePass,1,826,826
+access-nsieve,pass: collapseAnonymousFunctions,0,826,826
+access-nsieve,pass: extractPrototypeMemberDeclarations,0,826,826
+access-nsieve,pass: renameProperties,0,826,826
+access-nsieve,pass: gatherRawExports,0,826,826
+access-nsieve,pass: convertToDottedProperties,0,826,826
+access-nsieve,pass: markUnnormalized,0,826,826
+access-nsieve,pass: coalesceVariableNames,0,826,826
+access-nsieve,com.google.javascript.jscomp.PhaseOptimizer$Loop@42742c14,1,826,826
+access-nsieve,pass: exploitAssign,0,826,826
+access-nsieve,pass: collapseVariableDeclarations,1,826,794
+access-nsieve,pass: denormalize,0,794,789
+access-nsieve,pass: renameVars,1,789,260
+access-nsieve,pass: renameLabels,0,260,260
+access-nsieve,pass: latePeepholeOptimizations,1,260,254
+access-nsieve,pass: stripSideEffectProtection,0,254,254
+access-nsieve,pass: sanityCheckAst,0,254,254
+access-nsieve,pass: sanityCheckVars,0,254,254
+bitops-3bit-bits-in-byte,pass: beforeStandardChecks,0,365,365
+bitops-3bit-bits-in-byte,pass: checkJsDoc,0,365,365
+bitops-3bit-bits-in-byte,pass: closureRewriteModule,0,365,365
+bitops-3bit-bits-in-byte,pass: declaredGlobalExternsOnWindow,0,365,365
+bitops-3bit-bits-in-byte,pass: checkVariableReferences,0,365,365
+bitops-3bit-bits-in-byte,pass: closureGoogScopeAliases,0,365,365
+bitops-3bit-bits-in-byte,pass: closureRewriteClass,0,365,365
+bitops-3bit-bits-in-byte,pass: checkSideEffects,0,365,365
+bitops-3bit-bits-in-byte,pass: closurePrimitives,0,365,365
+bitops-3bit-bits-in-byte,pass: suspiciousCode,0,365,365
+bitops-3bit-bits-in-byte,pass: checkVars,1,365,365
+bitops-3bit-bits-in-byte,pass: inferConsts,0,365,365
+bitops-3bit-bits-in-byte,pass: checkRegExp,0,365,365
+bitops-3bit-bits-in-byte,pass: Es6StaticInheritance,0,365,365
+bitops-3bit-bits-in-byte,pass: beforeTypeChecking,0,365,365
+bitops-3bit-bits-in-byte,pass: checkControlFlow,0,365,365
+bitops-3bit-bits-in-byte,pass: closureReplaceGetCssName,1,365,365
+bitops-3bit-bits-in-byte,pass: processDefines,1,365,365
+bitops-3bit-bits-in-byte,pass: afterStandardChecks,0,365,365
+bitops-3bit-bits-in-byte,pass: gatherExternProperties,0,393,393
+bitops-3bit-bits-in-byte,pass: garbageCollectChecks,0,393,393
+bitops-3bit-bits-in-byte,pass: beforeStandardOptimizations,0,393,393
+bitops-3bit-bits-in-byte,pass: replaceIdGenerators,0,393,393
+bitops-3bit-bits-in-byte,pass: optimizeArgumentsArray,0,393,393
+bitops-3bit-bits-in-byte,pass: closureCodeRemoval,1,393,393
+bitops-3bit-bits-in-byte,pass: collapseProperties,0,393,393
+bitops-3bit-bits-in-byte,pass: inferConsts,0,393,393
+bitops-3bit-bits-in-byte,pass: markPureFunctions,0,393,393
+bitops-3bit-bits-in-byte,pass: checkConsts,0,393,393
+bitops-3bit-bits-in-byte,pass: checkConstParams,0,393,393
+bitops-3bit-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@5680defc,2,393,330
+bitops-3bit-bits-in-byte,pass: smartNamePass,0,330,330
+bitops-3bit-bits-in-byte,pass: closureOptimizePrimitives,0,330,330
+bitops-3bit-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@1c0f2f14,0,330,330
+bitops-3bit-bits-in-byte,pass: devirtualizePrototypeMethods,1,330,330
+bitops-3bit-bits-in-byte,pass: beforeMainOptimizations,0,330,330
+bitops-3bit-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@376b733e,6,330,536
+bitops-3bit-bits-in-byte,pass: beforeModuleMotion,0,536,536
+bitops-3bit-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@5bd81979,0,536,536
+bitops-3bit-bits-in-byte,pass: afterModuleMotion,0,536,536
+bitops-3bit-bits-in-byte,pass: flowSensitiveInlineVariables,0,536,536
+bitops-3bit-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@6e5c10d6,0,536,536
+bitops-3bit-bits-in-byte,pass: smartNamePass,0,536,536
+bitops-3bit-bits-in-byte,pass: collapseAnonymousFunctions,0,536,536
+bitops-3bit-bits-in-byte,pass: extractPrototypeMemberDeclarations,0,536,536
+bitops-3bit-bits-in-byte,pass: renameProperties,0,536,536
+bitops-3bit-bits-in-byte,pass: gatherRawExports,0,536,536
+bitops-3bit-bits-in-byte,pass: convertToDottedProperties,0,536,536
+bitops-3bit-bits-in-byte,pass: markUnnormalized,0,536,536
+bitops-3bit-bits-in-byte,pass: coalesceVariableNames,0,536,536
+bitops-3bit-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@490a3116,0,536,536
+bitops-3bit-bits-in-byte,pass: exploitAssign,0,536,536
+bitops-3bit-bits-in-byte,pass: collapseVariableDeclarations,0,536,518
+bitops-3bit-bits-in-byte,pass: denormalize,0,518,515
+bitops-3bit-bits-in-byte,pass: renameVars,0,515,220
+bitops-3bit-bits-in-byte,pass: renameLabels,0,220,220
+bitops-3bit-bits-in-byte,pass: latePeepholeOptimizations,0,220,220
+bitops-3bit-bits-in-byte,pass: stripSideEffectProtection,0,220,220
+bitops-3bit-bits-in-byte,pass: sanityCheckAst,0,220,220
+bitops-3bit-bits-in-byte,pass: sanityCheckVars,0,220,220
+bitops-bits-in-byte,pass: beforeStandardChecks,0,331,331
+bitops-bits-in-byte,pass: checkJsDoc,0,331,331
+bitops-bits-in-byte,pass: closureRewriteModule,1,331,331
+bitops-bits-in-byte,pass: declaredGlobalExternsOnWindow,0,331,331
+bitops-bits-in-byte,pass: checkVariableReferences,1,331,331
+bitops-bits-in-byte,pass: closureGoogScopeAliases,0,331,331
+bitops-bits-in-byte,pass: closureRewriteClass,0,331,331
+bitops-bits-in-byte,pass: checkSideEffects,0,331,331
+bitops-bits-in-byte,pass: closurePrimitives,0,331,331
+bitops-bits-in-byte,pass: suspiciousCode,1,331,331
+bitops-bits-in-byte,pass: checkVars,0,331,331
+bitops-bits-in-byte,pass: inferConsts,0,331,331
+bitops-bits-in-byte,pass: checkRegExp,0,331,331
+bitops-bits-in-byte,pass: Es6StaticInheritance,0,331,331
+bitops-bits-in-byte,pass: beforeTypeChecking,0,331,331
+bitops-bits-in-byte,pass: checkControlFlow,0,331,331
+bitops-bits-in-byte,pass: closureReplaceGetCssName,0,331,331
+bitops-bits-in-byte,pass: processDefines,0,331,331
+bitops-bits-in-byte,pass: afterStandardChecks,0,331,331
+bitops-bits-in-byte,pass: gatherExternProperties,0,350,350
+bitops-bits-in-byte,pass: garbageCollectChecks,0,350,350
+bitops-bits-in-byte,pass: beforeStandardOptimizations,0,350,350
+bitops-bits-in-byte,pass: replaceIdGenerators,0,350,350
+bitops-bits-in-byte,pass: optimizeArgumentsArray,0,350,350
+bitops-bits-in-byte,pass: closureCodeRemoval,0,350,350
+bitops-bits-in-byte,pass: collapseProperties,0,350,350
+bitops-bits-in-byte,pass: inferConsts,0,350,350
+bitops-bits-in-byte,pass: markPureFunctions,1,350,350
+bitops-bits-in-byte,pass: checkConsts,0,350,350
+bitops-bits-in-byte,pass: checkConstParams,0,350,350
+bitops-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@66c07ca9,2,350,306
+bitops-bits-in-byte,pass: smartNamePass,0,306,306
+bitops-bits-in-byte,pass: closureOptimizePrimitives,0,306,306
+bitops-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@32090b91,0,306,306
+bitops-bits-in-byte,pass: devirtualizePrototypeMethods,0,306,306
+bitops-bits-in-byte,pass: beforeMainOptimizations,0,306,306
+bitops-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@4b024465,4,306,511
+bitops-bits-in-byte,pass: beforeModuleMotion,0,511,511
+bitops-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@a373127,0,511,511
+bitops-bits-in-byte,pass: afterModuleMotion,0,511,511
+bitops-bits-in-byte,pass: flowSensitiveInlineVariables,0,511,511
+bitops-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@713ecfe,0,511,511
+bitops-bits-in-byte,pass: smartNamePass,0,511,511
+bitops-bits-in-byte,pass: collapseAnonymousFunctions,0,511,511
+bitops-bits-in-byte,pass: extractPrototypeMemberDeclarations,0,511,511
+bitops-bits-in-byte,pass: renameProperties,0,511,511
+bitops-bits-in-byte,pass: gatherRawExports,0,511,511
+bitops-bits-in-byte,pass: convertToDottedProperties,0,511,511
+bitops-bits-in-byte,pass: markUnnormalized,0,511,511
+bitops-bits-in-byte,pass: coalesceVariableNames,0,511,511
+bitops-bits-in-byte,com.google.javascript.jscomp.PhaseOptimizer$Loop@5f826d63,0,511,511
+bitops-bits-in-byte,pass: exploitAssign,0,511,511
+bitops-bits-in-byte,pass: collapseVariableDeclarations,0,511,486
+bitops-bits-in-byte,pass: denormalize,0,486,481
+bitops-bits-in-byte,pass: renameVars,1,481,177
+bitops-bits-in-byte,pass: renameLabels,0,177,177
+bitops-bits-in-byte,pass: latePeepholeOptimizations,0,177,175
+bitops-bits-in-byte,pass: stripSideEffectProtection,0,175,175
+bitops-bits-in-byte,pass: sanityCheckAst,0,175,175
+bitops-bits-in-byte,pass: sanityCheckVars,0,175,175
+bitops-bitwise-and,pass: beforeStandardChecks,0,209,209
+bitops-bitwise-and,pass: checkJsDoc,1,209,209
+bitops-bitwise-and,pass: closureRewriteModule,0,209,209
+bitops-bitwise-and,pass: declaredGlobalExternsOnWindow,0,209,209
+bitops-bitwise-and,pass: checkVariableReferences,0,209,209
+bitops-bitwise-and,pass: closureGoogScopeAliases,0,209,209
+bitops-bitwise-and,pass: closureRewriteClass,0,209,209
+bitops-bitwise-and,pass: checkSideEffects,0,209,209
+bitops-bitwise-and,pass: closurePrimitives,0,209,209
+bitops-bitwise-and,pass: suspiciousCode,0,209,209
+bitops-bitwise-and,pass: checkVars,0,209,209
+bitops-bitwise-and,pass: inferConsts,0,209,209
+bitops-bitwise-and,pass: checkRegExp,0,209,209
+bitops-bitwise-and,pass: Es6StaticInheritance,0,209,209
+bitops-bitwise-and,pass: beforeTypeChecking,0,209,209
+bitops-bitwise-and,pass: checkControlFlow,0,209,209
+bitops-bitwise-and,pass: closureReplaceGetCssName,2,209,209
+bitops-bitwise-and,pass: processDefines,0,209,209
+bitops-bitwise-and,pass: afterStandardChecks,0,209,209
+bitops-bitwise-and,pass: gatherExternProperties,0,210,210
+bitops-bitwise-and,pass: garbageCollectChecks,0,210,210
+bitops-bitwise-and,pass: beforeStandardOptimizations,0,210,210
+bitops-bitwise-and,pass: replaceIdGenerators,0,210,210
+bitops-bitwise-and,pass: optimizeArgumentsArray,0,210,210
+bitops-bitwise-and,pass: closureCodeRemoval,0,210,210
+bitops-bitwise-and,pass: collapseProperties,0,210,210
+bitops-bitwise-and,pass: inferConsts,0,210,210
+bitops-bitwise-and,pass: markPureFunctions,0,210,210
+bitops-bitwise-and,pass: checkConsts,0,210,210
+bitops-bitwise-and,pass: checkConstParams,0,210,210
+bitops-bitwise-and,com.google.javascript.jscomp.PhaseOptimizer$Loop@328b3869,1,210,177
+bitops-bitwise-and,pass: smartNamePass,0,177,177
+bitops-bitwise-and,pass: closureOptimizePrimitives,0,177,177
+bitops-bitwise-and,com.google.javascript.jscomp.PhaseOptimizer$Loop@53a7dc44,0,177,177
+bitops-bitwise-and,pass: devirtualizePrototypeMethods,0,177,177
+bitops-bitwise-and,pass: beforeMainOptimizations,0,177,177
+bitops-bitwise-and,com.google.javascript.jscomp.PhaseOptimizer$Loop@1f01927d,1,177,177
+bitops-bitwise-and,pass: beforeModuleMotion,0,177,177
+bitops-bitwise-and,com.google.javascript.jscomp.PhaseOptimizer$Loop@63dda9a,0,177,177
+bitops-bitwise-and,pass: afterModuleMotion,0,177,177
+bitops-bitwise-and,pass: flowSensitiveInlineVariables,0,177,177
+bitops-bitwise-and,com.google.javascript.jscomp.PhaseOptimizer$Loop@5f0f3c15,0,177,177
+bitops-bitwise-and,pass: smartNamePass,0,177,177
+bitops-bitwise-and,pass: collapseAnonymousFunctions,0,177,177
+bitops-bitwise-and,pass: extractPrototypeMemberDeclarations,0,177,177
+bitops-bitwise-and,pass: renameProperties,0,177,177
+bitops-bitwise-and,pass: gatherRawExports,0,177,177
+bitops-bitwise-and,pass: convertToDottedProperties,0,177,177
+bitops-bitwise-and,pass: markUnnormalized,0,177,177
+bitops-bitwise-and,pass: coalesceVariableNames,0,177,177
+bitops-bitwise-and,com.google.javascript.jscomp.PhaseOptimizer$Loop@696469de,0,177,177
+bitops-bitwise-and,pass: exploitAssign,0,177,177
+bitops-bitwise-and,pass: collapseVariableDeclarations,0,177,177
+bitops-bitwise-and,pass: denormalize,0,177,176
+bitops-bitwise-and,pass: renameVars,0,176,161
+bitops-bitwise-and,pass: renameLabels,0,161,161
+bitops-bitwise-and,pass: latePeepholeOptimizations,0,161,146
+bitops-bitwise-and,pass: stripSideEffectProtection,0,146,146
+bitops-bitwise-and,pass: sanityCheckAst,1,146,146
+bitops-bitwise-and,pass: sanityCheckVars,0,146,146
+bitops-nsieve-bits,pass: beforeStandardChecks,0,580,580
+bitops-nsieve-bits,pass: checkJsDoc,0,580,580
+bitops-nsieve-bits,pass: closureRewriteModule,0,580,580
+bitops-nsieve-bits,pass: declaredGlobalExternsOnWindow,0,580,580
+bitops-nsieve-bits,pass: checkVariableReferences,0,580,580
+bitops-nsieve-bits,pass: closureGoogScopeAliases,0,580,580
+bitops-nsieve-bits,pass: closureRewriteClass,0,580,580
+bitops-nsieve-bits,pass: checkSideEffects,0,580,580
+bitops-nsieve-bits,pass: closurePrimitives,1,580,580
+bitops-nsieve-bits,pass: suspiciousCode,0,580,580
+bitops-nsieve-bits,pass: checkVars,0,580,580
+bitops-nsieve-bits,pass: inferConsts,1,580,580
+bitops-nsieve-bits,pass: checkRegExp,0,580,580
+bitops-nsieve-bits,pass: Es6StaticInheritance,0,580,580
+bitops-nsieve-bits,pass: beforeTypeChecking,0,580,580
+bitops-nsieve-bits,pass: checkControlFlow,0,580,580
+bitops-nsieve-bits,pass: closureReplaceGetCssName,0,580,580
+bitops-nsieve-bits,pass: processDefines,0,580,580
+bitops-nsieve-bits,pass: afterStandardChecks,0,580,580
+bitops-nsieve-bits,pass: gatherExternProperties,0,666,666
+bitops-nsieve-bits,pass: garbageCollectChecks,0,666,666
+bitops-nsieve-bits,pass: beforeStandardOptimizations,0,666,666
+bitops-nsieve-bits,pass: replaceIdGenerators,0,666,666
+bitops-nsieve-bits,pass: optimizeArgumentsArray,0,666,666
+bitops-nsieve-bits,pass: closureCodeRemoval,1,666,666
+bitops-nsieve-bits,pass: collapseProperties,0,666,666
+bitops-nsieve-bits,pass: inferConsts,0,666,666
+bitops-nsieve-bits,pass: markPureFunctions,0,666,666
+bitops-nsieve-bits,pass: checkConsts,0,666,666
+bitops-nsieve-bits,pass: checkConstParams,0,666,666
+bitops-nsieve-bits,com.google.javascript.jscomp.PhaseOptimizer$Loop@79b77d0d,2,666,575
+bitops-nsieve-bits,pass: smartNamePass,0,575,575
+bitops-nsieve-bits,pass: closureOptimizePrimitives,0,575,575
+bitops-nsieve-bits,com.google.javascript.jscomp.PhaseOptimizer$Loop@2543e22,1,575,575
+bitops-nsieve-bits,pass: devirtualizePrototypeMethods,0,575,575
+bitops-nsieve-bits,pass: beforeMainOptimizations,0,575,575
+bitops-nsieve-bits,com.google.javascript.jscomp.PhaseOptimizer$Loop@d778487,17,575,879
+bitops-nsieve-bits,pass: beforeModuleMotion,0,879,879
+bitops-nsieve-bits,com.google.javascript.jscomp.PhaseOptimizer$Loop@2b3b0ec6,0,879,879
+bitops-nsieve-bits,pass: afterModuleMotion,0,879,879
+bitops-nsieve-bits,pass: flowSensitiveInlineVariables,0,879,879
+bitops-nsieve-bits,com.google.javascript.jscomp.PhaseOptimizer$Loop@3825d962,1,879,879
+bitops-nsieve-bits,pass: smartNamePass,0,879,879
+bitops-nsieve-bits,pass: collapseAnonymousFunctions,0,879,879
+bitops-nsieve-bits,pass: extractPrototypeMemberDeclarations,0,879,879
+bitops-nsieve-bits,pass: renameProperties,0,879,874
+bitops-nsieve-bits,pass: gatherRawExports,0,874,874
+bitops-nsieve-bits,pass: convertToDottedProperties,0,874,874
+bitops-nsieve-bits,pass: markUnnormalized,0,874,874
+bitops-nsieve-bits,pass: coalesceVariableNames,0,874,874
+bitops-nsieve-bits,com.google.javascript.jscomp.PhaseOptimizer$Loop@22a12d7d,1,874,874
+bitops-nsieve-bits,pass: exploitAssign,0,874,874
+bitops-nsieve-bits,pass: collapseVariableDeclarations,1,874,846
+bitops-nsieve-bits,pass: denormalize,1,846,840
+bitops-nsieve-bits,pass: renameVars,0,840,337
+bitops-nsieve-bits,pass: renameLabels,0,337,337
+bitops-nsieve-bits,pass: latePeepholeOptimizations,0,337,328
+bitops-nsieve-bits,pass: stripSideEffectProtection,0,328,328
+bitops-nsieve-bits,pass: sanityCheckAst,0,328,328
+bitops-nsieve-bits,pass: sanityCheckVars,0,328,328
+controlflow-recursive,pass: beforeStandardChecks,0,437,437
+controlflow-recursive,pass: checkJsDoc,0,437,437
+controlflow-recursive,pass: closureRewriteModule,0,437,437
+controlflow-recursive,pass: declaredGlobalExternsOnWindow,0,437,437
+controlflow-recursive,pass: checkVariableReferences,1,437,437
+controlflow-recursive,pass: closureGoogScopeAliases,0,437,437
+controlflow-recursive,pass: closureRewriteClass,0,437,437
+controlflow-recursive,pass: checkSideEffects,0,437,437
+controlflow-recursive,pass: closurePrimitives,1,437,437
+controlflow-recursive,pass: suspiciousCode,0,437,437
+controlflow-recursive,pass: checkVars,0,437,437
+controlflow-recursive,pass: inferConsts,0,437,437
+controlflow-recursive,pass: checkRegExp,0,437,437
+controlflow-recursive,pass: Es6StaticInheritance,0,437,437
+controlflow-recursive,pass: beforeTypeChecking,0,437,437
+controlflow-recursive,pass: checkControlFlow,0,437,437
+controlflow-recursive,pass: closureReplaceGetCssName,1,437,437
+controlflow-recursive,pass: processDefines,1,437,437
+controlflow-recursive,pass: afterStandardChecks,0,437,437
+controlflow-recursive,pass: gatherExternProperties,0,465,465
+controlflow-recursive,pass: garbageCollectChecks,0,465,465
+controlflow-recursive,pass: beforeStandardOptimizations,0,465,465
+controlflow-recursive,pass: replaceIdGenerators,0,465,465
+controlflow-recursive,pass: optimizeArgumentsArray,0,465,465
+controlflow-recursive,pass: closureCodeRemoval,1,465,465
+controlflow-recursive,pass: collapseProperties,0,465,465
+controlflow-recursive,pass: inferConsts,0,465,465
+controlflow-recursive,pass: markPureFunctions,1,465,465
+controlflow-recursive,pass: checkConsts,0,465,465
+controlflow-recursive,pass: checkConstParams,0,465,465
+controlflow-recursive,com.google.javascript.jscomp.PhaseOptimizer$Loop@5c650711,3,465,414
+controlflow-recursive,pass: smartNamePass,0,414,414
+controlflow-recursive,pass: closureOptimizePrimitives,0,414,414
+controlflow-recursive,com.google.javascript.jscomp.PhaseOptimizer$Loop@680d7180,0,414,414
+controlflow-recursive,pass: devirtualizePrototypeMethods,1,414,414
+controlflow-recursive,pass: beforeMainOptimizations,0,414,414
+controlflow-recursive,com.google.javascript.jscomp.PhaseOptimizer$Loop@59e610e9,2,414,414
+controlflow-recursive,pass: beforeModuleMotion,0,414,414
+controlflow-recursive,com.google.javascript.jscomp.PhaseOptimizer$Loop@1d685b9b,0,414,414
+controlflow-recursive,pass: afterModuleMotion,0,414,414
+controlflow-recursive,pass: flowSensitiveInlineVariables,1,414,414
+controlflow-recursive,com.google.javascript.jscomp.PhaseOptimizer$Loop@1ba3fdeb,0,414,414
+controlflow-recursive,pass: smartNamePass,0,414,414
+controlflow-recursive,pass: collapseAnonymousFunctions,0,414,414
+controlflow-recursive,pass: extractPrototypeMemberDeclarations,0,414,414
+controlflow-recursive,pass: renameProperties,0,414,414
+controlflow-recursive,pass: gatherRawExports,0,414,414
+controlflow-recursive,pass: convertToDottedProperties,0,414,414
+controlflow-recursive,pass: markUnnormalized,0,414,414
+controlflow-recursive,pass: coalesceVariableNames,0,414,414
+controlflow-recursive,com.google.javascript.jscomp.PhaseOptimizer$Loop@67f447ce,0,414,414
+controlflow-recursive,pass: exploitAssign,0,414,414
+controlflow-recursive,pass: collapseVariableDeclarations,0,414,410
+controlflow-recursive,pass: denormalize,0,410,409
+controlflow-recursive,pass: renameVars,0,409,307
+controlflow-recursive,pass: renameLabels,0,307,307
+controlflow-recursive,pass: latePeepholeOptimizations,1,307,303
+controlflow-recursive,pass: stripSideEffectProtection,0,303,303
+controlflow-recursive,pass: sanityCheckAst,0,303,303
+controlflow-recursive,pass: sanityCheckVars,0,303,303
+date-format-tofte,pass: beforeStandardChecks,0,4225,4225
+date-format-tofte,pass: checkJsDoc,0,4225,4225
+date-format-tofte,pass: closureRewriteModule,0,4225,4225
+date-format-tofte,pass: declaredGlobalExternsOnWindow,0,4225,4225
+date-format-tofte,pass: checkVariableReferences,2,4225,4225
+date-format-tofte,pass: closureGoogScopeAliases,0,4225,4225
+date-format-tofte,pass: closureRewriteClass,0,4225,4225
+date-format-tofte,pass: checkSideEffects,0,4225,4267
+date-format-tofte,pass: closurePrimitives,0,4267,4267
+date-format-tofte,pass: suspiciousCode,0,4267,4267
+date-format-tofte,pass: checkVars,1,4267,4267
+date-format-tofte,pass: inferConsts,1,4267,4267
+date-format-tofte,pass: checkRegExp,0,4267,4267
+date-format-tofte,pass: Es6StaticInheritance,0,4267,4267
+date-format-tofte,pass: beforeTypeChecking,0,4267,4267
+date-format-tofte,pass: checkControlFlow,1,4267,4267
+date-format-tofte,pass: closureReplaceGetCssName,2,4267,4267
+date-format-tofte,pass: processDefines,1,4267,4267
+date-format-tofte,pass: afterStandardChecks,0,4267,4267
+date-format-tofte,pass: gatherExternProperties,0,4384,4384
+date-format-tofte,pass: garbageCollectChecks,0,4384,4384
+date-format-tofte,pass: beforeStandardOptimizations,0,4384,4384
+date-format-tofte,pass: replaceIdGenerators,0,4384,4384
+date-format-tofte,pass: optimizeArgumentsArray,1,4384,4384
+date-format-tofte,pass: closureCodeRemoval,1,4384,4384
+date-format-tofte,pass: collapseProperties,1,4384,4384
+date-format-tofte,pass: inferConsts,0,4384,4384
+date-format-tofte,pass: markPureFunctions,2,4384,4384
+date-format-tofte,pass: checkConsts,0,4384,4384
+date-format-tofte,pass: checkConstParams,0,4384,4384
+date-format-tofte,com.google.javascript.jscomp.PhaseOptimizer$Loop@34330e62,8,4384,4248
+date-format-tofte,pass: smartNamePass,1,4248,4216
+date-format-tofte,pass: closureOptimizePrimitives,0,4216,4216
+date-format-tofte,com.google.javascript.jscomp.PhaseOptimizer$Loop@c41fa9c,0,4216,4216
+date-format-tofte,pass: devirtualizePrototypeMethods,1,4216,4381
+date-format-tofte,pass: beforeMainOptimizations,0,4381,4381
+date-format-tofte,com.google.javascript.jscomp.PhaseOptimizer$Loop@1c46368b,9,4381,652
+date-format-tofte,pass: beforeModuleMotion,0,652,652
+date-format-tofte,com.google.javascript.jscomp.PhaseOptimizer$Loop@632e81ac,0,652,652
+date-format-tofte,pass: afterModuleMotion,0,652,652
+date-format-tofte,pass: flowSensitiveInlineVariables,2,652,652
+date-format-tofte,com.google.javascript.jscomp.PhaseOptimizer$Loop@741fd2bd,0,652,652
+date-format-tofte,pass: smartNamePass,1,652,652
+date-format-tofte,pass: collapseAnonymousFunctions,0,652,647
+date-format-tofte,pass: extractPrototypeMemberDeclarations,0,647,647
+date-format-tofte,pass: renameProperties,1,647,618
+date-format-tofte,pass: gatherRawExports,0,618,618
+date-format-tofte,pass: convertToDottedProperties,0,618,618
+date-format-tofte,pass: markUnnormalized,0,618,618
+date-format-tofte,pass: coalesceVariableNames,0,618,638
+date-format-tofte,com.google.javascript.jscomp.PhaseOptimizer$Loop@2fc7aa87,4,638,638
+date-format-tofte,pass: exploitAssign,0,638,638
+date-format-tofte,pass: collapseVariableDeclarations,0,638,638
+date-format-tofte,pass: denormalize,0,638,635
+date-format-tofte,pass: renameVars,0,635,411
+date-format-tofte,pass: renameLabels,0,411,411
+date-format-tofte,pass: latePeepholeOptimizations,1,411,328
+date-format-tofte,pass: stripSideEffectProtection,0,328,328
+date-format-tofte,pass: sanityCheckAst,0,328,328
+date-format-tofte,pass: sanityCheckVars,0,328,328
+date-format-xparb,pass: beforeStandardChecks,0,8544,8544
+date-format-xparb,pass: checkJsDoc,0,8544,8544
+date-format-xparb,pass: closureRewriteModule,0,8544,8544
+date-format-xparb,pass: declaredGlobalExternsOnWindow,0,8544,8544
+date-format-xparb,pass: checkVariableReferences,1,8544,8544
+date-format-xparb,pass: closureGoogScopeAliases,1,8544,8544
+date-format-xparb,pass: closureRewriteClass,0,8544,8544
+date-format-xparb,pass: checkSideEffects,1,8544,8544
+date-format-xparb,pass: closurePrimitives,0,8544,8544
+date-format-xparb,pass: suspiciousCode,0,8544,8544
+date-format-xparb,pass: checkVars,0,8544,8544
+date-format-xparb,pass: inferConsts,0,8544,8544
+date-format-xparb,pass: checkRegExp,33,8544,8544
+date-format-xparb,pass: Es6StaticInheritance,0,8544,8544
+date-format-xparb,pass: beforeTypeChecking,0,8544,8544
+date-format-xparb,pass: checkControlFlow,2,8544,8544
+date-format-xparb,pass: closureReplaceGetCssName,0,8544,8544
+date-format-xparb,pass: processDefines,1,8544,8544
+date-format-xparb,pass: afterStandardChecks,0,8544,8544
+date-format-xparb,pass: gatherExternProperties,0,8747,8747
+date-format-xparb,pass: garbageCollectChecks,0,8747,8747
+date-format-xparb,pass: beforeStandardOptimizations,0,8747,8747
+date-format-xparb,pass: replaceIdGenerators,0,8747,8747
+date-format-xparb,pass: optimizeArgumentsArray,1,8747,8747
+date-format-xparb,pass: closureCodeRemoval,1,8747,8747
+date-format-xparb,pass: collapseProperties,1,8747,8747
+date-format-xparb,pass: inferConsts,1,8747,8747
+date-format-xparb,pass: markPureFunctions,4,8747,8747
+date-format-xparb,pass: checkConsts,0,8747,8747
+date-format-xparb,pass: checkConstParams,1,8747,8747
+date-format-xparb,com.google.javascript.jscomp.PhaseOptimizer$Loop@5e42c6fe,8,8747,7209
+date-format-xparb,pass: smartNamePass,2,7209,7178
+date-format-xparb,pass: closureOptimizePrimitives,0,7178,7178
+date-format-xparb,com.google.javascript.jscomp.PhaseOptimizer$Loop@1ee59b41,0,7178,7178
+date-format-xparb,pass: devirtualizePrototypeMethods,1,7178,7319
+date-format-xparb,pass: beforeMainOptimizations,0,7319,7319
+date-format-xparb,com.google.javascript.jscomp.PhaseOptimizer$Loop@227a51b8,12,7319,7311
+date-format-xparb,pass: beforeModuleMotion,0,7311,7311
+date-format-xparb,com.google.javascript.jscomp.PhaseOptimizer$Loop@48473aca,1,7311,7311
+date-format-xparb,pass: afterModuleMotion,0,7311,7311
+date-format-xparb,pass: flowSensitiveInlineVariables,9,7311,7294
+date-format-xparb,com.google.javascript.jscomp.PhaseOptimizer$Loop@1cc42c5b,0,7294,7294
+date-format-xparb,pass: smartNamePass,2,7294,7294
+date-format-xparb,pass: collapseAnonymousFunctions,0,7294,7289
+date-format-xparb,pass: extractPrototypeMemberDeclarations,0,7289,7289
+date-format-xparb,pass: renameProperties,1,7289,6609
+date-format-xparb,pass: gatherRawExports,0,6609,6609
+date-format-xparb,pass: convertToDottedProperties,0,6609,6609
+date-format-xparb,pass: markUnnormalized,0,6609,6609
+date-format-xparb,pass: coalesceVariableNames,4,6609,6626
+date-format-xparb,com.google.javascript.jscomp.PhaseOptimizer$Loop@4c078eaf,0,6626,6626
+date-format-xparb,pass: exploitAssign,0,6626,6626
+date-format-xparb,pass: collapseVariableDeclarations,0,6626,6598
+date-format-xparb,pass: denormalize,0,6598,6594
+date-format-xparb,pass: renameVars,0,6594,5652
+date-format-xparb,pass: renameLabels,1,5652,5652
+date-format-xparb,pass: latePeepholeOptimizations,2,5652,5579
+date-format-xparb,pass: stripSideEffectProtection,0,5579,5579
+date-format-xparb,pass: sanityCheckAst,1,5579,5579
+date-format-xparb,pass: sanityCheckVars,0,5579,5579
+function-closure,pass: beforeStandardChecks,0,53,53
+function-closure,pass: checkJsDoc,1,53,53
+function-closure,pass: closureRewriteModule,0,53,53
+function-closure,pass: declaredGlobalExternsOnWindow,0,53,53
+function-closure,pass: checkVariableReferences,0,53,53
+function-closure,pass: closureGoogScopeAliases,0,53,53
+function-closure,pass: closureRewriteClass,0,53,53
+function-closure,pass: checkSideEffects,0,53,53
+function-closure,pass: closurePrimitives,0,53,53
+function-closure,pass: suspiciousCode,0,53,53
+function-closure,pass: checkVars,0,53,53
+function-closure,pass: inferConsts,0,53,53
+function-closure,pass: checkRegExp,0,53,53
+function-closure,pass: Es6StaticInheritance,0,53,53
+function-closure,pass: beforeTypeChecking,0,53,53
+function-closure,pass: checkControlFlow,0,53,53
+function-closure,pass: closureReplaceGetCssName,0,53,53
+function-closure,pass: processDefines,0,53,53
+function-closure,pass: afterStandardChecks,0,53,53
+function-closure,pass: gatherExternProperties,0,54,54
+function-closure,pass: garbageCollectChecks,0,54,54
+function-closure,pass: beforeStandardOptimizations,0,54,54
+function-closure,pass: replaceIdGenerators,0,54,54
+function-closure,pass: optimizeArgumentsArray,0,54,54
+function-closure,pass: closureCodeRemoval,0,54,54
+function-closure,pass: collapseProperties,0,54,54
+function-closure,pass: inferConsts,0,54,54
+function-closure,pass: markPureFunctions,0,54,54
+function-closure,pass: checkConsts,0,54,54
+function-closure,pass: checkConstParams,0,54,54
+function-closure,com.google.javascript.jscomp.PhaseOptimizer$Loop@7067654b,1,54,24
+function-closure,pass: smartNamePass,0,24,24
+function-closure,pass: closureOptimizePrimitives,0,24,24
+function-closure,com.google.javascript.jscomp.PhaseOptimizer$Loop@4d9dcf5d,0,24,24
+function-closure,pass: devirtualizePrototypeMethods,0,24,24
+function-closure,pass: beforeMainOptimizations,0,24,24
+function-closure,com.google.javascript.jscomp.PhaseOptimizer$Loop@6bbbc189,0,24,24
+function-closure,pass: beforeModuleMotion,0,24,24
+function-closure,com.google.javascript.jscomp.PhaseOptimizer$Loop@5141a7c5,1,24,24
+function-closure,pass: afterModuleMotion,0,24,24
+function-closure,pass: flowSensitiveInlineVariables,0,24,24
+function-closure,com.google.javascript.jscomp.PhaseOptimizer$Loop@7e21fbc7,0,24,24
+function-closure,pass: smartNamePass,0,24,24
+function-closure,pass: collapseAnonymousFunctions,0,24,24
+function-closure,pass: extractPrototypeMemberDeclarations,0,24,24
+function-closure,pass: renameProperties,0,24,24
+function-closure,pass: gatherRawExports,0,24,24
+function-closure,pass: convertToDottedProperties,0,24,24
+function-closure,pass: markUnnormalized,0,24,24
+function-closure,pass: coalesceVariableNames,0,24,24
+function-closure,com.google.javascript.jscomp.PhaseOptimizer$Loop@6d1aff3,0,24,24
+function-closure,pass: exploitAssign,0,24,24
+function-closure,pass: collapseVariableDeclarations,0,24,24
+function-closure,pass: denormalize,0,24,23
+function-closure,pass: renameVars,0,23,23
+function-closure,pass: renameLabels,0,23,23
+function-closure,pass: latePeepholeOptimizations,0,23,23
+function-closure,pass: stripSideEffectProtection,0,23,23
+function-closure,pass: sanityCheckAst,0,23,23
+function-closure,pass: sanityCheckVars,1,23,23
+function-correct-args,pass: beforeStandardChecks,0,87,87
+function-correct-args,pass: checkJsDoc,0,87,87
+function-correct-args,pass: closureRewriteModule,0,87,87
+function-correct-args,pass: declaredGlobalExternsOnWindow,0,87,87
+function-correct-args,pass: checkVariableReferences,0,87,87
+function-correct-args,pass: closureGoogScopeAliases,0,87,87
+function-correct-args,pass: closureRewriteClass,0,87,87
+function-correct-args,pass: checkSideEffects,0,87,87
+function-correct-args,pass: closurePrimitives,0,87,87
+function-correct-args,pass: suspiciousCode,0,87,87
+function-correct-args,pass: checkVars,0,87,87
+function-correct-args,pass: inferConsts,0,87,87
+function-correct-args,pass: checkRegExp,0,87,87
+function-correct-args,pass: Es6StaticInheritance,0,87,87
+function-correct-args,pass: beforeTypeChecking,0,87,87
+function-correct-args,pass: checkControlFlow,1,87,87
+function-correct-args,pass: closureReplaceGetCssName,0,87,87
+function-correct-args,pass: processDefines,0,87,87
+function-correct-args,pass: afterStandardChecks,0,87,87
+function-correct-args,pass: gatherExternProperties,0,88,88
+function-correct-args,pass: garbageCollectChecks,0,88,88
+function-correct-args,pass: beforeStandardOptimizations,0,88,88
+function-correct-args,pass: replaceIdGenerators,0,88,88
+function-correct-args,pass: optimizeArgumentsArray,0,88,88
+function-correct-args,pass: closureCodeRemoval,0,88,88
+function-correct-args,pass: collapseProperties,0,88,88
+function-correct-args,pass: inferConsts,0,88,88
+function-correct-args,pass: markPureFunctions,0,88,88
+function-correct-args,pass: checkConsts,0,88,88
+function-correct-args,pass: checkConstParams,0,88,88
+function-correct-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@4f0e9663,0,88,24
+function-correct-args,pass: smartNamePass,0,24,24
+function-correct-args,pass: closureOptimizePrimitives,0,24,24
+function-correct-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@53e8921f,0,24,24
+function-correct-args,pass: devirtualizePrototypeMethods,0,24,24
+function-correct-args,pass: beforeMainOptimizations,0,24,24
+function-correct-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@6cdf3887,0,24,24
+function-correct-args,pass: beforeModuleMotion,0,24,24
+function-correct-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@2da81c58,0,24,24
+function-correct-args,pass: afterModuleMotion,0,24,24
+function-correct-args,pass: flowSensitiveInlineVariables,0,24,24
+function-correct-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@7d2ed6d8,0,24,24
+function-correct-args,pass: smartNamePass,0,24,24
+function-correct-args,pass: collapseAnonymousFunctions,0,24,24
+function-correct-args,pass: extractPrototypeMemberDeclarations,0,24,24
+function-correct-args,pass: renameProperties,0,24,24
+function-correct-args,pass: gatherRawExports,0,24,24
+function-correct-args,pass: convertToDottedProperties,0,24,24
+function-correct-args,pass: markUnnormalized,0,24,24
+function-correct-args,pass: coalesceVariableNames,0,24,24
+function-correct-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@2f1d888,0,24,24
+function-correct-args,pass: exploitAssign,0,24,24
+function-correct-args,pass: collapseVariableDeclarations,0,24,24
+function-correct-args,pass: denormalize,0,24,23
+function-correct-args,pass: renameVars,1,23,23
+function-correct-args,pass: renameLabels,0,23,23
+function-correct-args,pass: latePeepholeOptimizations,0,23,23
+function-correct-args,pass: stripSideEffectProtection,0,23,23
+function-correct-args,pass: sanityCheckAst,0,23,23
+function-correct-args,pass: sanityCheckVars,0,23,23
+function-empty,pass: beforeStandardChecks,0,39,39
+function-empty,pass: checkJsDoc,0,39,39
+function-empty,pass: closureRewriteModule,0,39,39
+function-empty,pass: declaredGlobalExternsOnWindow,0,39,39
+function-empty,pass: checkVariableReferences,0,39,39
+function-empty,pass: closureGoogScopeAliases,0,39,39
+function-empty,pass: closureRewriteClass,0,39,39
+function-empty,pass: checkSideEffects,0,39,39
+function-empty,pass: closurePrimitives,0,39,39
+function-empty,pass: suspiciousCode,0,39,39
+function-empty,pass: checkVars,0,39,39
+function-empty,pass: inferConsts,0,39,39
+function-empty,pass: checkRegExp,0,39,39
+function-empty,pass: Es6StaticInheritance,0,39,39
+function-empty,pass: beforeTypeChecking,0,39,39
+function-empty,pass: checkControlFlow,0,39,39
+function-empty,pass: closureReplaceGetCssName,1,39,39
+function-empty,pass: processDefines,0,39,39
+function-empty,pass: afterStandardChecks,0,39,39
+function-empty,pass: gatherExternProperties,0,40,40
+function-empty,pass: garbageCollectChecks,0,40,40
+function-empty,pass: beforeStandardOptimizations,0,40,40
+function-empty,pass: replaceIdGenerators,0,40,40
+function-empty,pass: optimizeArgumentsArray,0,40,40
+function-empty,pass: closureCodeRemoval,0,40,40
+function-empty,pass: collapseProperties,0,40,40
+function-empty,pass: inferConsts,1,40,40
+function-empty,pass: markPureFunctions,0,40,40
+function-empty,pass: checkConsts,0,40,40
+function-empty,pass: checkConstParams,0,40,40
+function-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@4c8b52d,0,40,24
+function-empty,pass: smartNamePass,1,24,24
+function-empty,pass: closureOptimizePrimitives,0,24,24
+function-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@4cf02c0a,0,24,24
+function-empty,pass: devirtualizePrototypeMethods,0,24,24
+function-empty,pass: beforeMainOptimizations,0,24,24
+function-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@2787089e,0,24,24
+function-empty,pass: beforeModuleMotion,0,24,24
+function-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@4f4dd1c5,0,24,24
+function-empty,pass: afterModuleMotion,0,24,24
+function-empty,pass: flowSensitiveInlineVariables,0,24,24
+function-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@c5ae12d,0,24,24
+function-empty,pass: smartNamePass,0,24,24
+function-empty,pass: collapseAnonymousFunctions,1,24,24
+function-empty,pass: extractPrototypeMemberDeclarations,0,24,24
+function-empty,pass: renameProperties,0,24,24
+function-empty,pass: gatherRawExports,0,24,24
+function-empty,pass: convertToDottedProperties,0,24,24
+function-empty,pass: markUnnormalized,0,24,24
+function-empty,pass: coalesceVariableNames,0,24,24
+function-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@c9280bd,0,24,24
+function-empty,pass: exploitAssign,0,24,24
+function-empty,pass: collapseVariableDeclarations,0,24,24
+function-empty,pass: denormalize,0,24,23
+function-empty,pass: renameVars,0,23,23
+function-empty,pass: renameLabels,0,23,23
+function-empty,pass: latePeepholeOptimizations,0,23,23
+function-empty,pass: stripSideEffectProtection,0,23,23
+function-empty,pass: sanityCheckAst,0,23,23
+function-empty,pass: sanityCheckVars,0,23,23
+function-excess-args,pass: beforeStandardChecks,0,72,72
+function-excess-args,pass: checkJsDoc,0,72,72
+function-excess-args,pass: closureRewriteModule,0,72,72
+function-excess-args,pass: declaredGlobalExternsOnWindow,0,72,72
+function-excess-args,pass: checkVariableReferences,0,72,72
+function-excess-args,pass: closureGoogScopeAliases,1,72,72
+function-excess-args,pass: closureRewriteClass,0,72,72
+function-excess-args,pass: checkSideEffects,0,72,72
+function-excess-args,pass: closurePrimitives,0,72,72
+function-excess-args,pass: suspiciousCode,0,72,72
+function-excess-args,pass: checkVars,0,72,72
+function-excess-args,pass: inferConsts,0,72,72
+function-excess-args,pass: checkRegExp,0,72,72
+function-excess-args,pass: Es6StaticInheritance,0,72,72
+function-excess-args,pass: beforeTypeChecking,0,72,72
+function-excess-args,pass: checkControlFlow,0,72,72
+function-excess-args,pass: closureReplaceGetCssName,1,72,72
+function-excess-args,pass: processDefines,0,72,72
+function-excess-args,pass: afterStandardChecks,0,72,72
+function-excess-args,pass: gatherExternProperties,0,73,73
+function-excess-args,pass: garbageCollectChecks,0,73,73
+function-excess-args,pass: beforeStandardOptimizations,0,73,73
+function-excess-args,pass: replaceIdGenerators,0,73,73
+function-excess-args,pass: optimizeArgumentsArray,0,73,73
+function-excess-args,pass: closureCodeRemoval,0,73,73
+function-excess-args,pass: collapseProperties,0,73,73
+function-excess-args,pass: inferConsts,0,73,73
+function-excess-args,pass: markPureFunctions,0,73,73
+function-excess-args,pass: checkConsts,0,73,73
+function-excess-args,pass: checkConstParams,0,73,73
+function-excess-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@5057d43b,1,73,24
+function-excess-args,pass: smartNamePass,0,24,24
+function-excess-args,pass: closureOptimizePrimitives,0,24,24
+function-excess-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@71104e2a,0,24,24
+function-excess-args,pass: devirtualizePrototypeMethods,0,24,24
+function-excess-args,pass: beforeMainOptimizations,0,24,24
+function-excess-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@41ef586b,1,24,24
+function-excess-args,pass: beforeModuleMotion,0,24,24
+function-excess-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@5560bf23,0,24,24
+function-excess-args,pass: afterModuleMotion,0,24,24
+function-excess-args,pass: flowSensitiveInlineVariables,0,24,24
+function-excess-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@2d45e8c6,0,24,24
+function-excess-args,pass: smartNamePass,0,24,24
+function-excess-args,pass: collapseAnonymousFunctions,0,24,24
+function-excess-args,pass: extractPrototypeMemberDeclarations,0,24,24
+function-excess-args,pass: renameProperties,0,24,24
+function-excess-args,pass: gatherRawExports,0,24,24
+function-excess-args,pass: convertToDottedProperties,0,24,24
+function-excess-args,pass: markUnnormalized,0,24,24
+function-excess-args,pass: coalesceVariableNames,0,24,24
+function-excess-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@20d9a8e,0,24,24
+function-excess-args,pass: exploitAssign,0,24,24
+function-excess-args,pass: collapseVariableDeclarations,0,24,24
+function-excess-args,pass: denormalize,0,24,23
+function-excess-args,pass: renameVars,1,23,23
+function-excess-args,pass: renameLabels,0,23,23
+function-excess-args,pass: latePeepholeOptimizations,0,23,23
+function-excess-args,pass: stripSideEffectProtection,0,23,23
+function-excess-args,pass: sanityCheckAst,0,23,23
+function-excess-args,pass: sanityCheckVars,0,23,23
+function-missing-args,pass: beforeStandardChecks,0,68,68
+function-missing-args,pass: checkJsDoc,0,68,68
+function-missing-args,pass: closureRewriteModule,0,68,68
+function-missing-args,pass: declaredGlobalExternsOnWindow,0,68,68
+function-missing-args,pass: checkVariableReferences,0,68,68
+function-missing-args,pass: closureGoogScopeAliases,0,68,68
+function-missing-args,pass: closureRewriteClass,0,68,68
+function-missing-args,pass: checkSideEffects,0,68,68
+function-missing-args,pass: closurePrimitives,0,68,68
+function-missing-args,pass: suspiciousCode,0,68,68
+function-missing-args,pass: checkVars,0,68,68
+function-missing-args,pass: inferConsts,0,68,68
+function-missing-args,pass: checkRegExp,0,68,68
+function-missing-args,pass: Es6StaticInheritance,0,68,68
+function-missing-args,pass: beforeTypeChecking,0,68,68
+function-missing-args,pass: checkControlFlow,1,68,68
+function-missing-args,pass: closureReplaceGetCssName,0,68,68
+function-missing-args,pass: processDefines,0,68,68
+function-missing-args,pass: afterStandardChecks,0,68,68
+function-missing-args,pass: gatherExternProperties,0,69,69
+function-missing-args,pass: garbageCollectChecks,0,69,69
+function-missing-args,pass: beforeStandardOptimizations,0,69,69
+function-missing-args,pass: replaceIdGenerators,0,69,69
+function-missing-args,pass: optimizeArgumentsArray,0,69,69
+function-missing-args,pass: closureCodeRemoval,0,69,69
+function-missing-args,pass: collapseProperties,0,69,69
+function-missing-args,pass: inferConsts,0,69,69
+function-missing-args,pass: markPureFunctions,0,69,69
+function-missing-args,pass: checkConsts,0,69,69
+function-missing-args,pass: checkConstParams,0,69,69
+function-missing-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@916916a,0,69,24
+function-missing-args,pass: smartNamePass,0,24,24
+function-missing-args,pass: closureOptimizePrimitives,0,24,24
+function-missing-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@622d91b2,0,24,24
+function-missing-args,pass: devirtualizePrototypeMethods,0,24,24
+function-missing-args,pass: beforeMainOptimizations,0,24,24
+function-missing-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@1fde6b1c,1,24,24
+function-missing-args,pass: beforeModuleMotion,0,24,24
+function-missing-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@6d920a08,0,24,24
+function-missing-args,pass: afterModuleMotion,0,24,24
+function-missing-args,pass: flowSensitiveInlineVariables,0,24,24
+function-missing-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@7a6a19fd,0,24,24
+function-missing-args,pass: smartNamePass,0,24,24
+function-missing-args,pass: collapseAnonymousFunctions,0,24,24
+function-missing-args,pass: extractPrototypeMemberDeclarations,0,24,24
+function-missing-args,pass: renameProperties,0,24,24
+function-missing-args,pass: gatherRawExports,0,24,24
+function-missing-args,pass: convertToDottedProperties,0,24,24
+function-missing-args,pass: markUnnormalized,0,24,24
+function-missing-args,pass: coalesceVariableNames,0,24,24
+function-missing-args,com.google.javascript.jscomp.PhaseOptimizer$Loop@2ba037f8,0,24,24
+function-missing-args,pass: exploitAssign,0,24,24
+function-missing-args,pass: collapseVariableDeclarations,0,24,24
+function-missing-args,pass: denormalize,0,24,23
+function-missing-args,pass: renameVars,0,23,23
+function-missing-args,pass: renameLabels,0,23,23
+function-missing-args,pass: latePeepholeOptimizations,0,23,23
+function-missing-args,pass: stripSideEffectProtection,0,23,23
+function-missing-args,pass: sanityCheckAst,0,23,23
+function-missing-args,pass: sanityCheckVars,0,23,23
+function-sum,pass: beforeStandardChecks,0,62,62
+function-sum,pass: checkJsDoc,0,62,62
+function-sum,pass: closureRewriteModule,0,62,62
+function-sum,pass: declaredGlobalExternsOnWindow,0,62,62
+function-sum,pass: checkVariableReferences,0,62,62
+function-sum,pass: closureGoogScopeAliases,0,62,62
+function-sum,pass: closureRewriteClass,0,62,62
+function-sum,pass: checkSideEffects,0,62,62
+function-sum,pass: closurePrimitives,0,62,62
+function-sum,pass: suspiciousCode,0,62,62
+function-sum,pass: checkVars,0,62,62
+function-sum,pass: inferConsts,0,62,62
+function-sum,pass: checkRegExp,0,62,62
+function-sum,pass: Es6StaticInheritance,0,62,62
+function-sum,pass: beforeTypeChecking,0,62,62
+function-sum,pass: checkControlFlow,0,62,62
+function-sum,pass: closureReplaceGetCssName,0,62,62
+function-sum,pass: processDefines,0,62,62
+function-sum,pass: afterStandardChecks,0,62,62
+function-sum,pass: gatherExternProperties,0,69,69
+function-sum,pass: garbageCollectChecks,0,69,69
+function-sum,pass: beforeStandardOptimizations,0,69,69
+function-sum,pass: replaceIdGenerators,0,69,69
+function-sum,pass: optimizeArgumentsArray,0,69,69
+function-sum,pass: closureCodeRemoval,0,69,69
+function-sum,pass: collapseProperties,0,69,69
+function-sum,pass: inferConsts,0,69,69
+function-sum,pass: markPureFunctions,0,69,69
+function-sum,pass: checkConsts,0,69,69
+function-sum,pass: checkConstParams,0,69,69
+function-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@1d99e1a0,1,69,25
+function-sum,pass: smartNamePass,0,25,25
+function-sum,pass: closureOptimizePrimitives,0,25,25
+function-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@1bd0e1d2,0,25,25
+function-sum,pass: devirtualizePrototypeMethods,0,25,25
+function-sum,pass: beforeMainOptimizations,0,25,25
+function-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@71b4a073,0,25,25
+function-sum,pass: beforeModuleMotion,0,25,25
+function-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@10670690,0,25,25
+function-sum,pass: afterModuleMotion,0,25,25
+function-sum,pass: flowSensitiveInlineVariables,0,25,25
+function-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@2c8f694d,0,25,25
+function-sum,pass: smartNamePass,0,25,25
+function-sum,pass: collapseAnonymousFunctions,0,25,25
+function-sum,pass: extractPrototypeMemberDeclarations,0,25,25
+function-sum,pass: renameProperties,0,25,25
+function-sum,pass: gatherRawExports,0,25,25
+function-sum,pass: convertToDottedProperties,0,25,25
+function-sum,pass: markUnnormalized,0,25,25
+function-sum,pass: coalesceVariableNames,1,25,25
+function-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@58301dc5,0,25,25
+function-sum,pass: exploitAssign,0,25,25
+function-sum,pass: collapseVariableDeclarations,0,25,25
+function-sum,pass: denormalize,0,25,24
+function-sum,pass: renameVars,0,24,24
+function-sum,pass: renameLabels,0,24,24
+function-sum,pass: latePeepholeOptimizations,0,24,24
+function-sum,pass: stripSideEffectProtection,0,24,24
+function-sum,pass: sanityCheckAst,0,24,24
+function-sum,pass: sanityCheckVars,0,24,24
+loop-empty-resolve,pass: beforeStandardChecks,0,20,20
+loop-empty-resolve,pass: checkJsDoc,0,20,20
+loop-empty-resolve,pass: closureRewriteModule,0,20,20
+loop-empty-resolve,pass: declaredGlobalExternsOnWindow,0,20,20
+loop-empty-resolve,pass: checkVariableReferences,0,20,20
+loop-empty-resolve,pass: closureGoogScopeAliases,0,20,20
+loop-empty-resolve,pass: closureRewriteClass,0,20,20
+loop-empty-resolve,pass: checkSideEffects,0,20,20
+loop-empty-resolve,pass: closurePrimitives,0,20,20
+loop-empty-resolve,pass: suspiciousCode,0,20,20
+loop-empty-resolve,pass: checkVars,0,20,20
+loop-empty-resolve,pass: inferConsts,0,20,20
+loop-empty-resolve,pass: checkRegExp,0,20,20
+loop-empty-resolve,pass: Es6StaticInheritance,0,20,20
+loop-empty-resolve,pass: beforeTypeChecking,0,20,20
+loop-empty-resolve,pass: checkControlFlow,0,20,20
+loop-empty-resolve,pass: closureReplaceGetCssName,1,20,20
+loop-empty-resolve,pass: processDefines,0,20,20
+loop-empty-resolve,pass: afterStandardChecks,0,20,20
+loop-empty-resolve,pass: gatherExternProperties,0,21,21
+loop-empty-resolve,pass: garbageCollectChecks,0,21,21
+loop-empty-resolve,pass: beforeStandardOptimizations,0,21,21
+loop-empty-resolve,pass: replaceIdGenerators,0,21,21
+loop-empty-resolve,pass: optimizeArgumentsArray,0,21,21
+loop-empty-resolve,pass: closureCodeRemoval,0,21,21
+loop-empty-resolve,pass: collapseProperties,0,21,21
+loop-empty-resolve,pass: inferConsts,0,21,21
+loop-empty-resolve,pass: markPureFunctions,0,21,21
+loop-empty-resolve,pass: checkConsts,0,21,21
+loop-empty-resolve,pass: checkConstParams,0,21,21
+loop-empty-resolve,com.google.javascript.jscomp.PhaseOptimizer$Loop@14d91936,0,21,21
+loop-empty-resolve,pass: smartNamePass,0,21,21
+loop-empty-resolve,pass: closureOptimizePrimitives,0,21,21
+loop-empty-resolve,com.google.javascript.jscomp.PhaseOptimizer$Loop@6dbccf81,0,21,21
+loop-empty-resolve,pass: devirtualizePrototypeMethods,0,21,21
+loop-empty-resolve,pass: beforeMainOptimizations,0,21,21
+loop-empty-resolve,com.google.javascript.jscomp.PhaseOptimizer$Loop@3ee313b8,1,21,21
+loop-empty-resolve,pass: beforeModuleMotion,0,21,21
+loop-empty-resolve,com.google.javascript.jscomp.PhaseOptimizer$Loop@4ccfb2b,0,21,21
+loop-empty-resolve,pass: afterModuleMotion,0,21,21
+loop-empty-resolve,pass: flowSensitiveInlineVariables,0,21,21
+loop-empty-resolve,com.google.javascript.jscomp.PhaseOptimizer$Loop@1a8ffe95,0,21,21
+loop-empty-resolve,pass: smartNamePass,0,21,21
+loop-empty-resolve,pass: collapseAnonymousFunctions,0,21,21
+loop-empty-resolve,pass: extractPrototypeMemberDeclarations,0,21,21
+loop-empty-resolve,pass: renameProperties,0,21,21
+loop-empty-resolve,pass: gatherRawExports,0,21,21
+loop-empty-resolve,pass: convertToDottedProperties,0,21,21
+loop-empty-resolve,pass: markUnnormalized,0,21,21
+loop-empty-resolve,pass: coalesceVariableNames,0,21,21
+loop-empty-resolve,com.google.javascript.jscomp.PhaseOptimizer$Loop@44037b5e,0,21,21
+loop-empty-resolve,pass: exploitAssign,0,21,21
+loop-empty-resolve,pass: collapseVariableDeclarations,0,21,21
+loop-empty-resolve,pass: denormalize,0,21,20
+loop-empty-resolve,pass: renameVars,0,20,20
+loop-empty-resolve,pass: renameLabels,1,20,20
+loop-empty-resolve,pass: latePeepholeOptimizations,0,20,20
+loop-empty-resolve,pass: stripSideEffectProtection,0,20,20
+loop-empty-resolve,pass: sanityCheckAst,0,20,20
+loop-empty-resolve,pass: sanityCheckVars,0,20,20
+loop-empty,pass: beforeStandardChecks,0,23,23
+loop-empty,pass: checkJsDoc,0,23,23
+loop-empty,pass: closureRewriteModule,0,23,23
+loop-empty,pass: declaredGlobalExternsOnWindow,0,23,23
+loop-empty,pass: checkVariableReferences,0,23,23
+loop-empty,pass: closureGoogScopeAliases,0,23,23
+loop-empty,pass: closureRewriteClass,0,23,23
+loop-empty,pass: checkSideEffects,0,23,23
+loop-empty,pass: closurePrimitives,0,23,23
+loop-empty,pass: suspiciousCode,0,23,23
+loop-empty,pass: checkVars,0,23,23
+loop-empty,pass: inferConsts,0,23,23
+loop-empty,pass: checkRegExp,0,23,23
+loop-empty,pass: Es6StaticInheritance,0,23,23
+loop-empty,pass: beforeTypeChecking,0,23,23
+loop-empty,pass: checkControlFlow,0,23,23
+loop-empty,pass: closureReplaceGetCssName,0,23,23
+loop-empty,pass: processDefines,0,23,23
+loop-empty,pass: afterStandardChecks,0,23,23
+loop-empty,pass: gatherExternProperties,0,24,24
+loop-empty,pass: garbageCollectChecks,0,24,24
+loop-empty,pass: beforeStandardOptimizations,0,24,24
+loop-empty,pass: replaceIdGenerators,0,24,24
+loop-empty,pass: optimizeArgumentsArray,0,24,24
+loop-empty,pass: closureCodeRemoval,0,24,24
+loop-empty,pass: collapseProperties,0,24,24
+loop-empty,pass: inferConsts,0,24,24
+loop-empty,pass: markPureFunctions,0,24,24
+loop-empty,pass: checkConsts,0,24,24
+loop-empty,pass: checkConstParams,0,24,24
+loop-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@57bd312e,0,24,24
+loop-empty,pass: smartNamePass,0,24,24
+loop-empty,pass: closureOptimizePrimitives,0,24,24
+loop-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@ff87aab,0,24,24
+loop-empty,pass: devirtualizePrototypeMethods,0,24,24
+loop-empty,pass: beforeMainOptimizations,0,24,24
+loop-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@3292c2a4,0,24,24
+loop-empty,pass: beforeModuleMotion,0,24,24
+loop-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@172c1964,0,24,24
+loop-empty,pass: afterModuleMotion,0,24,24
+loop-empty,pass: flowSensitiveInlineVariables,0,24,24
+loop-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@359b73e3,0,24,24
+loop-empty,pass: smartNamePass,0,24,24
+loop-empty,pass: collapseAnonymousFunctions,0,24,24
+loop-empty,pass: extractPrototypeMemberDeclarations,0,24,24
+loop-empty,pass: renameProperties,0,24,24
+loop-empty,pass: gatherRawExports,0,24,24
+loop-empty,pass: convertToDottedProperties,0,24,24
+loop-empty,pass: markUnnormalized,0,24,24
+loop-empty,pass: coalesceVariableNames,0,24,24
+loop-empty,com.google.javascript.jscomp.PhaseOptimizer$Loop@407e4990,1,24,24
+loop-empty,pass: exploitAssign,0,24,24
+loop-empty,pass: collapseVariableDeclarations,0,24,24
+loop-empty,pass: denormalize,0,24,23
+loop-empty,pass: renameVars,0,23,23
+loop-empty,pass: renameLabels,0,23,23
+loop-empty,pass: latePeepholeOptimizations,0,23,23
+loop-empty,pass: stripSideEffectProtection,0,23,23
+loop-empty,pass: sanityCheckAst,0,23,23
+loop-empty,pass: sanityCheckVars,0,23,23
+loop-sum,pass: beforeStandardChecks,0,59,59
+loop-sum,pass: checkJsDoc,0,59,59
+loop-sum,pass: closureRewriteModule,0,59,59
+loop-sum,pass: declaredGlobalExternsOnWindow,0,59,59
+loop-sum,pass: checkVariableReferences,0,59,59
+loop-sum,pass: closureGoogScopeAliases,0,59,59
+loop-sum,pass: closureRewriteClass,0,59,59
+loop-sum,pass: checkSideEffects,1,59,59
+loop-sum,pass: closurePrimitives,0,59,59
+loop-sum,pass: suspiciousCode,0,59,59
+loop-sum,pass: checkVars,0,59,59
+loop-sum,pass: inferConsts,0,59,59
+loop-sum,pass: checkRegExp,0,59,59
+loop-sum,pass: Es6StaticInheritance,0,59,59
+loop-sum,pass: beforeTypeChecking,0,59,59
+loop-sum,pass: checkControlFlow,0,59,59
+loop-sum,pass: closureReplaceGetCssName,0,59,59
+loop-sum,pass: processDefines,0,59,59
+loop-sum,pass: afterStandardChecks,0,59,59
+loop-sum,pass: gatherExternProperties,0,60,60
+loop-sum,pass: garbageCollectChecks,0,60,60
+loop-sum,pass: beforeStandardOptimizations,0,60,60
+loop-sum,pass: replaceIdGenerators,0,60,60
+loop-sum,pass: optimizeArgumentsArray,0,60,60
+loop-sum,pass: closureCodeRemoval,0,60,60
+loop-sum,pass: collapseProperties,0,60,60
+loop-sum,pass: inferConsts,0,60,60
+loop-sum,pass: markPureFunctions,0,60,60
+loop-sum,pass: checkConsts,0,60,60
+loop-sum,pass: checkConstParams,0,60,60
+loop-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@226d2cce,0,60,42
+loop-sum,pass: smartNamePass,0,42,24
+loop-sum,pass: closureOptimizePrimitives,0,24,24
+loop-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@4a43ddb2,0,24,24
+loop-sum,pass: devirtualizePrototypeMethods,0,24,24
+loop-sum,pass: beforeMainOptimizations,0,24,24
+loop-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@74cc2f71,0,24,24
+loop-sum,pass: beforeModuleMotion,0,24,24
+loop-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@362caf07,0,24,24
+loop-sum,pass: afterModuleMotion,0,24,24
+loop-sum,pass: flowSensitiveInlineVariables,1,24,24
+loop-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@1136d6fc,0,24,24
+loop-sum,pass: smartNamePass,0,24,24
+loop-sum,pass: collapseAnonymousFunctions,0,24,24
+loop-sum,pass: extractPrototypeMemberDeclarations,0,24,24
+loop-sum,pass: renameProperties,0,24,24
+loop-sum,pass: gatherRawExports,0,24,24
+loop-sum,pass: convertToDottedProperties,0,24,24
+loop-sum,pass: markUnnormalized,0,24,24
+loop-sum,pass: coalesceVariableNames,0,24,24
+loop-sum,com.google.javascript.jscomp.PhaseOptimizer$Loop@331e2244,0,24,24
+loop-sum,pass: exploitAssign,0,24,24
+loop-sum,pass: collapseVariableDeclarations,0,24,24
+loop-sum,pass: denormalize,0,24,23
+loop-sum,pass: renameVars,0,23,23
+loop-sum,pass: renameLabels,0,23,23
+loop-sum,pass: latePeepholeOptimizations,0,23,23
+loop-sum,pass: stripSideEffectProtection,0,23,23
+loop-sum,pass: sanityCheckAst,0,23,23
+loop-sum,pass: sanityCheckVars,1,23,23
+math-cordic,pass: beforeStandardChecks,0,977,977
+math-cordic,pass: checkJsDoc,0,977,977
+math-cordic,pass: closureRewriteModule,0,977,977
+math-cordic,pass: declaredGlobalExternsOnWindow,0,977,977
+math-cordic,pass: checkVariableReferences,0,977,977
+math-cordic,pass: closureGoogScopeAliases,0,977,977
+math-cordic,pass: closureRewriteClass,0,977,977
+math-cordic,pass: checkSideEffects,0,977,977
+math-cordic,pass: closurePrimitives,0,977,977
+math-cordic,pass: suspiciousCode,0,977,977
+math-cordic,pass: checkVars,1,977,977
+math-cordic,pass: inferConsts,0,977,977
+math-cordic,pass: checkRegExp,1,977,977
+math-cordic,pass: Es6StaticInheritance,0,977,977
+math-cordic,pass: beforeTypeChecking,0,977,977
+math-cordic,pass: checkControlFlow,0,977,977
+math-cordic,pass: closureReplaceGetCssName,1,977,977
+math-cordic,pass: processDefines,0,977,977
+math-cordic,pass: afterStandardChecks,0,977,977
+math-cordic,pass: gatherExternProperties,0,1024,1024
+math-cordic,pass: garbageCollectChecks,0,1024,1024
+math-cordic,pass: beforeStandardOptimizations,0,1024,1024
+math-cordic,pass: replaceIdGenerators,0,1024,1024
+math-cordic,pass: optimizeArgumentsArray,0,1024,1024
+math-cordic,pass: closureCodeRemoval,0,1024,1024
+math-cordic,pass: collapseProperties,1,1024,1024
+math-cordic,pass: inferConsts,0,1024,1024
+math-cordic,pass: markPureFunctions,1,1024,1024
+math-cordic,pass: checkConsts,0,1024,1024
+math-cordic,pass: checkConstParams,0,1024,1024
+math-cordic,com.google.javascript.jscomp.PhaseOptimizer$Loop@76885bb7,2,1024,934
+math-cordic,pass: smartNamePass,0,934,934
+math-cordic,pass: closureOptimizePrimitives,0,934,934
+math-cordic,com.google.javascript.jscomp.PhaseOptimizer$Loop@4b1b45c6,0,934,934
+math-cordic,pass: devirtualizePrototypeMethods,0,934,934
+math-cordic,pass: beforeMainOptimizations,0,934,934
+math-cordic,com.google.javascript.jscomp.PhaseOptimizer$Loop@468f00f5,4,934,1221
+math-cordic,pass: beforeModuleMotion,0,1221,1221
+math-cordic,com.google.javascript.jscomp.PhaseOptimizer$Loop@3e1e5dc9,0,1221,1221
+math-cordic,pass: afterModuleMotion,0,1221,1221
+math-cordic,pass: flowSensitiveInlineVariables,0,1221,1221
+math-cordic,com.google.javascript.jscomp.PhaseOptimizer$Loop@64d1cb87,0,1221,1221
+math-cordic,pass: smartNamePass,0,1221,1221
+math-cordic,pass: collapseAnonymousFunctions,0,1221,1221
+math-cordic,pass: extractPrototypeMemberDeclarations,0,1221,1221
+math-cordic,pass: renameProperties,0,1221,1209
+math-cordic,pass: gatherRawExports,0,1209,1209
+math-cordic,pass: convertToDottedProperties,0,1209,1209
+math-cordic,pass: markUnnormalized,0,1209,1209
+math-cordic,pass: coalesceVariableNames,0,1209,1209
+math-cordic,com.google.javascript.jscomp.PhaseOptimizer$Loop@74b46088,0,1209,1209
+math-cordic,pass: exploitAssign,0,1209,1207
+math-cordic,pass: collapseVariableDeclarations,0,1207,1179
+math-cordic,pass: denormalize,0,1179,1177
+math-cordic,pass: renameVars,1,1177,517
+math-cordic,pass: renameLabels,0,517,517
+math-cordic,pass: latePeepholeOptimizations,0,517,508
+math-cordic,pass: stripSideEffectProtection,0,508,508
+math-cordic,pass: sanityCheckAst,0,508,508
+math-cordic,pass: sanityCheckVars,0,508,508
+math-partial-sums,pass: beforeStandardChecks,0,509,509
+math-partial-sums,pass: checkJsDoc,0,509,509
+math-partial-sums,pass: closureRewriteModule,0,509,509
+math-partial-sums,pass: declaredGlobalExternsOnWindow,0,509,509
+math-partial-sums,pass: checkVariableReferences,0,509,509
+math-partial-sums,pass: closureGoogScopeAliases,0,509,509
+math-partial-sums,pass: closureRewriteClass,0,509,509
+math-partial-sums,pass: checkSideEffects,0,509,509
+math-partial-sums,pass: closurePrimitives,0,509,509
+math-partial-sums,pass: suspiciousCode,0,509,509
+math-partial-sums,pass: checkVars,0,509,509
+math-partial-sums,pass: inferConsts,0,509,509
+math-partial-sums,pass: checkRegExp,0,509,509
+math-partial-sums,pass: Es6StaticInheritance,0,509,509
+math-partial-sums,pass: beforeTypeChecking,0,509,509
+math-partial-sums,pass: checkControlFlow,1,509,509
+math-partial-sums,pass: closureReplaceGetCssName,0,509,509
+math-partial-sums,pass: processDefines,1,509,509
+math-partial-sums,pass: afterStandardChecks,0,509,509
+math-partial-sums,pass: gatherExternProperties,0,511,511
+math-partial-sums,pass: garbageCollectChecks,0,511,511
+math-partial-sums,pass: beforeStandardOptimizations,0,511,511
+math-partial-sums,pass: replaceIdGenerators,0,511,511
+math-partial-sums,pass: optimizeArgumentsArray,0,511,511
+math-partial-sums,pass: closureCodeRemoval,0,511,511
+math-partial-sums,pass: collapseProperties,0,511,511
+math-partial-sums,pass: inferConsts,0,511,511
+math-partial-sums,pass: markPureFunctions,1,511,511
+math-partial-sums,pass: checkConsts,0,511,511
+math-partial-sums,pass: checkConstParams,0,511,511
+math-partial-sums,com.google.javascript.jscomp.PhaseOptimizer$Loop@64fc5f95,1,511,518
+math-partial-sums,pass: smartNamePass,0,518,518
+math-partial-sums,pass: closureOptimizePrimitives,0,518,518
+math-partial-sums,com.google.javascript.jscomp.PhaseOptimizer$Loop@55b427ed,0,518,518
+math-partial-sums,pass: devirtualizePrototypeMethods,0,518,518
+math-partial-sums,pass: beforeMainOptimizations,0,518,518
+math-partial-sums,com.google.javascript.jscomp.PhaseOptimizer$Loop@1f0dff7d,4,518,856
+math-partial-sums,pass: beforeModuleMotion,0,856,856
+math-partial-sums,com.google.javascript.jscomp.PhaseOptimizer$Loop@6f4beda9,0,856,856
+math-partial-sums,pass: afterModuleMotion,0,856,856
+math-partial-sums,pass: flowSensitiveInlineVariables,0,856,856
+math-partial-sums,com.google.javascript.jscomp.PhaseOptimizer$Loop@1891e689,0,856,856
+math-partial-sums,pass: smartNamePass,1,856,813
+math-partial-sums,pass: collapseAnonymousFunctions,0,813,813
+math-partial-sums,pass: extractPrototypeMemberDeclarations,0,813,813
+math-partial-sums,pass: renameProperties,0,813,805
+math-partial-sums,pass: gatherRawExports,0,805,805
+math-partial-sums,pass: convertToDottedProperties,0,805,805
+math-partial-sums,pass: markUnnormalized,0,805,805
+math-partial-sums,pass: coalesceVariableNames,0,805,805
+math-partial-sums,com.google.javascript.jscomp.PhaseOptimizer$Loop@6bacad09,0,805,805
+math-partial-sums,pass: exploitAssign,0,805,805
+math-partial-sums,pass: collapseVariableDeclarations,0,805,785
+math-partial-sums,pass: denormalize,0,785,782
+math-partial-sums,pass: renameVars,0,782,405
+math-partial-sums,pass: renameLabels,0,405,405
+math-partial-sums,pass: latePeepholeOptimizations,0,405,387
+math-partial-sums,pass: stripSideEffectProtection,0,387,387
+math-partial-sums,pass: sanityCheckAst,0,387,387
+math-partial-sums,pass: sanityCheckVars,0,387,387
+math-spectral-norm,pass: beforeStandardChecks,0,670,670
+math-spectral-norm,pass: checkJsDoc,0,670,670
+math-spectral-norm,pass: closureRewriteModule,0,670,670
+math-spectral-norm,pass: declaredGlobalExternsOnWindow,0,670,670
+math-spectral-norm,pass: checkVariableReferences,0,670,670
+math-spectral-norm,pass: closureGoogScopeAliases,0,670,670
+math-spectral-norm,pass: closureRewriteClass,0,670,670
+math-spectral-norm,pass: checkSideEffects,0,670,670
+math-spectral-norm,pass: closurePrimitives,0,670,670
+math-spectral-norm,pass: suspiciousCode,0,670,670
+math-spectral-norm,pass: checkVars,0,670,670
+math-spectral-norm,pass: inferConsts,1,670,670
+math-spectral-norm,pass: checkRegExp,0,670,670
+math-spectral-norm,pass: Es6StaticInheritance,0,670,670
+math-spectral-norm,pass: beforeTypeChecking,0,670,670
+math-spectral-norm,pass: checkControlFlow,0,670,670
+math-spectral-norm,pass: closureReplaceGetCssName,1,670,670
+math-spectral-norm,pass: processDefines,0,670,670
+math-spectral-norm,pass: afterStandardChecks,0,670,670
+math-spectral-norm,pass: gatherExternProperties,0,908,908
+math-spectral-norm,pass: garbageCollectChecks,0,908,908
+math-spectral-norm,pass: beforeStandardOptimizations,0,908,908
+math-spectral-norm,pass: replaceIdGenerators,0,908,908
+math-spectral-norm,pass: optimizeArgumentsArray,0,908,908
+math-spectral-norm,pass: closureCodeRemoval,0,908,908
+math-spectral-norm,pass: collapseProperties,1,908,908
+math-spectral-norm,pass: inferConsts,0,908,908
+math-spectral-norm,pass: markPureFunctions,1,908,908
+math-spectral-norm,pass: checkConsts,0,908,908
+math-spectral-norm,pass: checkConstParams,0,908,908
+math-spectral-norm,com.google.javascript.jscomp.PhaseOptimizer$Loop@777e11e0,3,908,907
+math-spectral-norm,pass: smartNamePass,0,907,907
+math-spectral-norm,pass: closureOptimizePrimitives,0,907,907
+math-spectral-norm,com.google.javascript.jscomp.PhaseOptimizer$Loop@7cfb1d7b,0,907,907
+math-spectral-norm,pass: devirtualizePrototypeMethods,0,907,907
+math-spectral-norm,pass: beforeMainOptimizations,0,907,907
+math-spectral-norm,com.google.javascript.jscomp.PhaseOptimizer$Loop@341a595d,10,907,1455
+math-spectral-norm,pass: beforeModuleMotion,0,1455,1455
+math-spectral-norm,com.google.javascript.jscomp.PhaseOptimizer$Loop@29d50a8a,0,1455,1455
+math-spectral-norm,pass: afterModuleMotion,0,1455,1455
+math-spectral-norm,pass: flowSensitiveInlineVariables,2,1455,1455
+math-spectral-norm,com.google.javascript.jscomp.PhaseOptimizer$Loop@327dc331,0,1455,1455
+math-spectral-norm,pass: smartNamePass,1,1455,1455
+math-spectral-norm,pass: collapseAnonymousFunctions,0,1455,1455
+math-spectral-norm,pass: extractPrototypeMemberDeclarations,0,1455,1455
+math-spectral-norm,pass: renameProperties,0,1455,1432
+math-spectral-norm,pass: gatherRawExports,0,1432,1432
+math-spectral-norm,pass: convertToDottedProperties,0,1432,1432
+math-spectral-norm,pass: markUnnormalized,0,1432,1432
+math-spectral-norm,pass: coalesceVariableNames,0,1432,1432
+math-spectral-norm,com.google.javascript.jscomp.PhaseOptimizer$Loop@7b195574,0,1432,1432
+math-spectral-norm,pass: exploitAssign,0,1432,1432
+math-spectral-norm,pass: collapseVariableDeclarations,0,1432,1380
+math-spectral-norm,pass: denormalize,0,1380,1372
+math-spectral-norm,pass: renameVars,0,1372,547
+math-spectral-norm,pass: renameLabels,0,547,547
+math-spectral-norm,pass: latePeepholeOptimizations,0,547,540
+math-spectral-norm,pass: stripSideEffectProtection,0,540,540
+math-spectral-norm,pass: sanityCheckAst,0,540,540
+math-spectral-norm,pass: sanityCheckVars,0,540,540
+string-base64,pass: beforeStandardChecks,0,1918,1918
+string-base64,pass: checkJsDoc,0,1918,1918
+string-base64,pass: closureRewriteModule,0,1918,1918
+string-base64,pass: declaredGlobalExternsOnWindow,0,1918,1918
+string-base64,pass: checkVariableReferences,0,1918,1918
+string-base64,pass: closureGoogScopeAliases,0,1918,1918
+string-base64,pass: closureRewriteClass,0,1918,1918
+string-base64,pass: checkSideEffects,0,1918,1918
+string-base64,pass: closurePrimitives,0,1918,1918
+string-base64,pass: suspiciousCode,0,1918,1918
+string-base64,pass: checkVars,0,1918,1918
+string-base64,pass: inferConsts,1,1918,1918
+string-base64,pass: checkRegExp,0,1918,1918
+string-base64,pass: Es6StaticInheritance,0,1918,1918
+string-base64,pass: beforeTypeChecking,0,1918,1918
+string-base64,pass: checkControlFlow,0,1918,1918
+string-base64,pass: closureReplaceGetCssName,0,1918,1918
+string-base64,pass: processDefines,0,1918,1918
+string-base64,pass: afterStandardChecks,0,1918,1918
+string-base64,pass: gatherExternProperties,0,2002,2002
+string-base64,pass: garbageCollectChecks,0,2002,2002
+string-base64,pass: beforeStandardOptimizations,0,2002,2002
+string-base64,pass: replaceIdGenerators,0,2002,2002
+string-base64,pass: optimizeArgumentsArray,0,2002,2002
+string-base64,pass: closureCodeRemoval,1,2002,2002
+string-base64,pass: collapseProperties,0,2002,2002
+string-base64,pass: inferConsts,0,2002,2002
+string-base64,pass: markPureFunctions,1,2002,2002
+string-base64,pass: checkConsts,0,2002,2002
+string-base64,pass: checkConstParams,0,2002,2002
+string-base64,com.google.javascript.jscomp.PhaseOptimizer$Loop@59ec7344,4,2002,2383
+string-base64,pass: smartNamePass,1,2383,2383
+string-base64,pass: closureOptimizePrimitives,0,2383,2383
+string-base64,com.google.javascript.jscomp.PhaseOptimizer$Loop@278068ea,0,2383,2383
+string-base64,pass: devirtualizePrototypeMethods,1,2383,2383
+string-base64,pass: beforeMainOptimizations,0,2383,2383
+string-base64,com.google.javascript.jscomp.PhaseOptimizer$Loop@16677c7d,7,2383,3122
+string-base64,pass: beforeModuleMotion,0,3122,3122
+string-base64,com.google.javascript.jscomp.PhaseOptimizer$Loop@432cce6a,0,3122,3122
+string-base64,pass: afterModuleMotion,0,3122,3122
+string-base64,pass: flowSensitiveInlineVariables,0,3122,3122
+string-base64,com.google.javascript.jscomp.PhaseOptimizer$Loop@7c60d38b,0,3122,3122
+string-base64,pass: smartNamePass,1,3122,3122
+string-base64,pass: collapseAnonymousFunctions,0,3122,3122
+string-base64,pass: extractPrototypeMemberDeclarations,0,3122,3122
+string-base64,pass: renameProperties,0,3122,2960
+string-base64,pass: gatherRawExports,0,2960,2960
+string-base64,pass: convertToDottedProperties,0,2960,2960
+string-base64,pass: markUnnormalized,0,2960,2960
+string-base64,pass: coalesceVariableNames,0,2960,2960
+string-base64,com.google.javascript.jscomp.PhaseOptimizer$Loop@115c4fdc,0,2960,2960
+string-base64,pass: exploitAssign,0,2960,2960
+string-base64,pass: collapseVariableDeclarations,0,2960,2916
+string-base64,pass: denormalize,0,2916,2912
+string-base64,pass: renameVars,1,2912,1589
+string-base64,pass: renameLabels,0,1589,1589
+string-base64,pass: latePeepholeOptimizations,3,1589,1559
+string-base64,pass: stripSideEffectProtection,0,1559,1559
+string-base64,pass: sanityCheckAst,0,1559,1559
+string-base64,pass: sanityCheckVars,0,1559,1559
+string-fasta,pass: beforeStandardChecks,0,1429,1429
+string-fasta,pass: checkJsDoc,1,1429,1429
+string-fasta,pass: closureRewriteModule,0,1429,1429
+string-fasta,pass: declaredGlobalExternsOnWindow,0,1429,1429
+string-fasta,pass: checkVariableReferences,1,1429,1429
+string-fasta,pass: closureGoogScopeAliases,0,1429,1429
+string-fasta,pass: closureRewriteClass,0,1429,1429
+string-fasta,pass: checkSideEffects,0,1429,1429
+string-fasta,pass: closurePrimitives,0,1429,1429
+string-fasta,pass: suspiciousCode,0,1429,1429
+string-fasta,pass: checkVars,0,1429,1429
+string-fasta,pass: inferConsts,0,1429,1429
+string-fasta,pass: checkRegExp,0,1429,1429
+string-fasta,pass: Es6StaticInheritance,0,1429,1429
+string-fasta,pass: beforeTypeChecking,0,1429,1429
+string-fasta,pass: checkControlFlow,0,1429,1429
+string-fasta,pass: closureReplaceGetCssName,0,1429,1429
+string-fasta,pass: processDefines,1,1429,1429
+string-fasta,pass: afterStandardChecks,0,1429,1429
+string-fasta,pass: gatherExternProperties,0,1503,1503
+string-fasta,pass: garbageCollectChecks,0,1503,1503
+string-fasta,pass: beforeStandardOptimizations,0,1503,1503
+string-fasta,pass: replaceIdGenerators,0,1503,1503
+string-fasta,pass: optimizeArgumentsArray,0,1503,1503
+string-fasta,pass: closureCodeRemoval,0,1503,1503
+string-fasta,pass: collapseProperties,0,1503,1503
+string-fasta,pass: inferConsts,0,1503,1503
+string-fasta,pass: markPureFunctions,1,1503,1503
+string-fasta,pass: checkConsts,0,1503,1503
+string-fasta,pass: checkConstParams,0,1503,1503
+string-fasta,com.google.javascript.jscomp.PhaseOptimizer$Loop@5f217743,3,1503,1370
+string-fasta,pass: smartNamePass,1,1370,1370
+string-fasta,pass: closureOptimizePrimitives,0,1370,1370
+string-fasta,com.google.javascript.jscomp.PhaseOptimizer$Loop@3263c449,0,1370,1370
+string-fasta,pass: devirtualizePrototypeMethods,1,1370,1370
+string-fasta,pass: beforeMainOptimizations,0,1370,1370
+string-fasta,com.google.javascript.jscomp.PhaseOptimizer$Loop@43f1c1e7,8,1370,2168
+string-fasta,pass: beforeModuleMotion,0,2168,2168
+string-fasta,com.google.javascript.jscomp.PhaseOptimizer$Loop@290b34d5,0,2168,2168
+string-fasta,pass: afterModuleMotion,0,2168,2168
+string-fasta,pass: flowSensitiveInlineVariables,4,2168,2168
+string-fasta,com.google.javascript.jscomp.PhaseOptimizer$Loop@538334ee,0,2168,2168
+string-fasta,pass: smartNamePass,1,2168,2168
+string-fasta,pass: collapseAnonymousFunctions,0,2168,2168
+string-fasta,pass: extractPrototypeMemberDeclarations,0,2168,2168
+string-fasta,pass: renameProperties,1,2168,2105
+string-fasta,pass: gatherRawExports,0,2105,2105
+string-fasta,pass: convertToDottedProperties,0,2105,2105
+string-fasta,pass: markUnnormalized,0,2105,2105
+string-fasta,pass: coalesceVariableNames,2,2105,2168
+string-fasta,com.google.javascript.jscomp.PhaseOptimizer$Loop@2881ab79,0,2168,2168
+string-fasta,pass: exploitAssign,0,2168,2168
+string-fasta,pass: collapseVariableDeclarations,0,2168,2148
+string-fasta,pass: denormalize,0,2148,2141
+string-fasta,pass: renameVars,0,2141,1478
+string-fasta,pass: renameLabels,0,1478,1478
+string-fasta,pass: latePeepholeOptimizations,1,1478,1467
+string-fasta,pass: stripSideEffectProtection,0,1467,1467
+string-fasta,pass: sanityCheckAst,0,1467,1467
+string-fasta,pass: sanityCheckVars,0,1467,1467
+string-tagcloud,pass: beforeStandardChecks,0,160152,160152
+string-tagcloud,pass: checkJsDoc,0,160152,160152
+string-tagcloud,pass: closureRewriteModule,0,160152,160152
+string-tagcloud,pass: declaredGlobalExternsOnWindow,0,160152,160152
+string-tagcloud,pass: checkVariableReferences,1,160152,160152
+string-tagcloud,pass: closureGoogScopeAliases,1,160152,160152
+string-tagcloud,pass: closureRewriteClass,0,160152,160152
+string-tagcloud,pass: checkSideEffects,0,160152,160152
+string-tagcloud,pass: closurePrimitives,0,160152,160152
+string-tagcloud,pass: suspiciousCode,0,160152,160152
+string-tagcloud,pass: checkVars,0,160152,160152
+string-tagcloud,pass: inferConsts,1,160152,160152
+string-tagcloud,pass: checkRegExp,0,160152,160152
+string-tagcloud,pass: Es6StaticInheritance,0,160152,160152
+string-tagcloud,pass: beforeTypeChecking,0,160152,160152
+string-tagcloud,pass: checkControlFlow,1,160152,160152
+string-tagcloud,pass: closureReplaceGetCssName,1,160152,160152
+string-tagcloud,pass: processDefines,1,160152,160152
+string-tagcloud,pass: afterStandardChecks,1,160152,160152
+string-tagcloud,pass: gatherExternProperties,0,160414,160414
+string-tagcloud,pass: garbageCollectChecks,0,160414,160414
+string-tagcloud,pass: beforeStandardOptimizations,0,160414,160414
+string-tagcloud,pass: replaceIdGenerators,0,160414,160414
+string-tagcloud,pass: optimizeArgumentsArray,0,160414,160414
+string-tagcloud,pass: closureCodeRemoval,0,160414,160414
+string-tagcloud,pass: collapseProperties,1,160414,160414
+string-tagcloud,pass: inferConsts,1,160414,160414
+string-tagcloud,pass: markPureFunctions,2,160414,160414
+string-tagcloud,pass: checkConsts,0,160414,160414
+string-tagcloud,pass: checkConstParams,0,160414,160414
+string-tagcloud,com.google.javascript.jscomp.PhaseOptimizer$Loop@27343ec7,8,160414,160231
+string-tagcloud,pass: smartNamePass,1,160231,160231
+string-tagcloud,pass: closureOptimizePrimitives,0,160231,160231
+string-tagcloud,com.google.javascript.jscomp.PhaseOptimizer$Loop@202ca23c,0,160231,160231
+string-tagcloud,pass: devirtualizePrototypeMethods,1,160231,160231
+string-tagcloud,pass: beforeMainOptimizations,0,160231,160231
+string-tagcloud,com.google.javascript.jscomp.PhaseOptimizer$Loop@3d19c8b6,16,160231,160218
+string-tagcloud,pass: beforeModuleMotion,0,160218,160218
+string-tagcloud,com.google.javascript.jscomp.PhaseOptimizer$Loop@7da0d671,0,160218,160218
+string-tagcloud,pass: afterModuleMotion,0,160218,160218
+string-tagcloud,pass: flowSensitiveInlineVariables,7,160218,160218
+string-tagcloud,com.google.javascript.jscomp.PhaseOptimizer$Loop@3a27cb2e,0,160218,160218
+string-tagcloud,pass: smartNamePass,1,160218,160218
+string-tagcloud,pass: collapseAnonymousFunctions,0,160218,160218
+string-tagcloud,pass: extractPrototypeMemberDeclarations,2,160218,160218
+string-tagcloud,pass: renameProperties,0,160218,159676
+string-tagcloud,pass: gatherRawExports,1,159676,159676
+string-tagcloud,pass: convertToDottedProperties,0,159676,159676
+string-tagcloud,pass: markUnnormalized,0,159676,159676
+string-tagcloud,pass: coalesceVariableNames,4,159676,159662
+string-tagcloud,com.google.javascript.jscomp.PhaseOptimizer$Loop@378305e4,1,159662,159662
+string-tagcloud,pass: exploitAssign,1,159662,159662
+string-tagcloud,pass: collapseVariableDeclarations,0,159662,159617
+string-tagcloud,pass: denormalize,0,159617,159611
+string-tagcloud,pass: renameVars,1,159611,159183
+string-tagcloud,pass: renameLabels,0,159183,159183
+string-tagcloud,pass: latePeepholeOptimizations,2,159183,159157
+string-tagcloud,pass: stripSideEffectProtection,0,159157,159157
+string-tagcloud,pass: sanityCheckAst,0,159157,159157
+string-tagcloud,pass: sanityCheckVars,2,159157,159157
+string-unpack-code,pass: beforeStandardChecks,0,187966,187966
+string-unpack-code,pass: checkJsDoc,0,187966,187966
+string-unpack-code,pass: closureRewriteModule,0,187966,187966
+string-unpack-code,pass: declaredGlobalExternsOnWindow,0,187966,187966
+string-unpack-code,pass: checkVariableReferences,0,187966,187966
+string-unpack-code,pass: closureGoogScopeAliases,0,187966,187966
+string-unpack-code,pass: closureRewriteClass,0,187966,187966
+string-unpack-code,pass: checkSideEffects,0,187966,187966
+string-unpack-code,pass: closurePrimitives,0,187966,187966
+string-unpack-code,pass: suspiciousCode,0,187966,187966
+string-unpack-code,pass: checkVars,0,187966,187966
+string-unpack-code,pass: inferConsts,1,187966,187966
+string-unpack-code,pass: checkRegExp,1,187966,187966
+string-unpack-code,pass: Es6StaticInheritance,0,187966,187966
+string-unpack-code,pass: beforeTypeChecking,0,187966,187966
+string-unpack-code,pass: checkControlFlow,2,187966,187966
+string-unpack-code,pass: closureReplaceGetCssName,1,187966,187966
+string-unpack-code,pass: processDefines,1,187966,187966
+string-unpack-code,pass: afterStandardChecks,0,187966,187966
+string-unpack-code,pass: gatherExternProperties,0,188363,188363
+string-unpack-code,pass: garbageCollectChecks,0,188363,188363
+string-unpack-code,pass: beforeStandardOptimizations,0,188363,188363
+string-unpack-code,pass: replaceIdGenerators,0,188363,188363
+string-unpack-code,pass: optimizeArgumentsArray,0,188363,188363
+string-unpack-code,pass: closureCodeRemoval,0,188363,188363
+string-unpack-code,pass: collapseProperties,0,188363,188363
+string-unpack-code,pass: inferConsts,0,188363,188363
+string-unpack-code,pass: markPureFunctions,1,188363,188363
+string-unpack-code,pass: checkConsts,0,188363,188363
+string-unpack-code,pass: checkConstParams,0,188363,188363
+string-unpack-code,com.google.javascript.jscomp.PhaseOptimizer$Loop@5a84b731,10,188363,198209
+string-unpack-code,pass: smartNamePass,2,198209,198209
+string-unpack-code,pass: closureOptimizePrimitives,0,198209,198209
+string-unpack-code,com.google.javascript.jscomp.PhaseOptimizer$Loop@55691f8a,0,198209,198209
+string-unpack-code,pass: devirtualizePrototypeMethods,1,198209,198209
+string-unpack-code,pass: beforeMainOptimizations,0,198209,198209
+string-unpack-code,com.google.javascript.jscomp.PhaseOptimizer$Loop@6db9923c,14,198209,198209
+string-unpack-code,pass: beforeModuleMotion,0,198209,198209
+string-unpack-code,com.google.javascript.jscomp.PhaseOptimizer$Loop@2eba67db,0,198209,198209
+string-unpack-code,pass: afterModuleMotion,0,198209,198209
+string-unpack-code,pass: flowSensitiveInlineVariables,6,198209,198209
+string-unpack-code,com.google.javascript.jscomp.PhaseOptimizer$Loop@4b28d98e,1,198209,198209
+string-unpack-code,pass: smartNamePass,2,198209,198209
+string-unpack-code,pass: collapseAnonymousFunctions,0,198209,198209
+string-unpack-code,pass: extractPrototypeMemberDeclarations,0,198209,198209
+string-unpack-code,pass: renameProperties,0,198209,198069
+string-unpack-code,pass: gatherRawExports,1,198069,198069
+string-unpack-code,pass: convertToDottedProperties,1,198069,198069
+string-unpack-code,pass: markUnnormalized,0,198069,198069
+string-unpack-code,pass: coalesceVariableNames,2,198069,198069
+string-unpack-code,com.google.javascript.jscomp.PhaseOptimizer$Loop@5bfd5173,1,198069,198069
+string-unpack-code,pass: exploitAssign,1,198069,198069
+string-unpack-code,pass: collapseVariableDeclarations,1,198069,198052
+string-unpack-code,pass: denormalize,1,198052,198050
+string-unpack-code,pass: renameVars,1,198050,197455
+string-unpack-code,pass: renameLabels,0,197455,197455
+string-unpack-code,pass: latePeepholeOptimizations,5,197455,187603
+string-unpack-code,pass: stripSideEffectProtection,0,187603,187603
+string-unpack-code,pass: sanityCheckAst,0,187603,187603
+string-unpack-code,pass: sanityCheckVars,0,187603,187603
+string-validate-input,pass: beforeStandardChecks,0,1327,1327
+string-validate-input,pass: checkJsDoc,1,1327,1327
+string-validate-input,pass: closureRewriteModule,0,1327,1327
+string-validate-input,pass: declaredGlobalExternsOnWindow,0,1327,1327
+string-validate-input,pass: checkVariableReferences,1,1327,1327
+string-validate-input,pass: closureGoogScopeAliases,0,1327,1327
+string-validate-input,pass: closureRewriteClass,0,1327,1327
+string-validate-input,pass: checkSideEffects,0,1327,1327
+string-validate-input,pass: closurePrimitives,0,1327,1327
+string-validate-input,pass: suspiciousCode,0,1327,1327
+string-validate-input,pass: checkVars,0,1327,1327
+string-validate-input,pass: inferConsts,0,1327,1327
+string-validate-input,pass: checkRegExp,0,1327,1327
+string-validate-input,pass: Es6StaticInheritance,1,1327,1327
+string-validate-input,pass: beforeTypeChecking,0,1327,1327
+string-validate-input,pass: checkControlFlow,1,1327,1327
+string-validate-input,pass: closureReplaceGetCssName,1,1327,1327
+string-validate-input,pass: processDefines,1,1327,1327
+string-validate-input,pass: afterStandardChecks,0,1327,1327
+string-validate-input,pass: gatherExternProperties,0,1380,1380
+string-validate-input,pass: garbageCollectChecks,0,1380,1380
+string-validate-input,pass: beforeStandardOptimizations,0,1380,1380
+string-validate-input,pass: replaceIdGenerators,0,1380,1380
+string-validate-input,pass: optimizeArgumentsArray,0,1380,1380
+string-validate-input,pass: closureCodeRemoval,0,1380,1380
+string-validate-input,pass: collapseProperties,0,1380,1380
+string-validate-input,pass: inferConsts,0,1380,1380
+string-validate-input,pass: markPureFunctions,1,1380,1380
+string-validate-input,pass: checkConsts,0,1380,1380
+string-validate-input,pass: checkConstParams,0,1380,1380
+string-validate-input,com.google.javascript.jscomp.PhaseOptimizer$Loop@3fc939d3,3,1380,1318
+string-validate-input,pass: smartNamePass,0,1318,1318
+string-validate-input,pass: closureOptimizePrimitives,1,1318,1318
+string-validate-input,com.google.javascript.jscomp.PhaseOptimizer$Loop@4ed7ce6f,0,1318,1318
+string-validate-input,pass: devirtualizePrototypeMethods,1,1318,1318
+string-validate-input,pass: beforeMainOptimizations,0,1318,1318
+string-validate-input,com.google.javascript.jscomp.PhaseOptimizer$Loop@446c94ea,7,1318,1192
+string-validate-input,pass: beforeModuleMotion,0,1192,1192
+string-validate-input,com.google.javascript.jscomp.PhaseOptimizer$Loop@21dc732e,1,1192,1192
+string-validate-input,pass: afterModuleMotion,0,1192,1192
+string-validate-input,pass: flowSensitiveInlineVariables,1,1192,1192
+string-validate-input,com.google.javascript.jscomp.PhaseOptimizer$Loop@2817743d,0,1192,1192
+string-validate-input,pass: smartNamePass,1,1192,1192
+string-validate-input,pass: collapseAnonymousFunctions,0,1192,1192
+string-validate-input,pass: extractPrototypeMemberDeclarations,0,1192,1192
+string-validate-input,pass: renameProperties,0,1192,1149
+string-validate-input,pass: gatherRawExports,0,1149,1149
+string-validate-input,pass: convertToDottedProperties,0,1149,1149
+string-validate-input,pass: markUnnormalized,0,1149,1149
+string-validate-input,pass: coalesceVariableNames,0,1149,1149
+string-validate-input,com.google.javascript.jscomp.PhaseOptimizer$Loop@5f5c82e9,1,1149,1149
+string-validate-input,pass: exploitAssign,0,1149,1149
+string-validate-input,pass: collapseVariableDeclarations,0,1149,1131
+string-validate-input,pass: denormalize,0,1131,1126
+string-validate-input,pass: renameVars,0,1126,592
+string-validate-input,pass: renameLabels,0,592,592
+string-validate-input,pass: latePeepholeOptimizations,1,592,515
+string-validate-input,pass: stripSideEffectProtection,0,515,515
+string-validate-input,pass: sanityCheckAst,0,515,515
+string-validate-input,pass: sanityCheckVars,0,515,515
