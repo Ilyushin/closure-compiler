@@ -1,1 +1,43 @@
-Pass  name ,Number  of  times ,Average  reducing  code  amount ,Average  execution  time  (milliseconds)denormalize ,30,4,0com.google.javascript.jscomp.PhaseOptimizer$Loop@3cd987e2 ,1,61,10com.google.javascript.jscomp.PhaseOptimizer$Loop@5c650711 ,1,51,3smartNamePass ,6,56,14com.google.javascript.jscomp.PhaseOptimizer$Loop@916916a ,1,45,0com.google.javascript.jscomp.PhaseOptimizer$Loop@227a51b8 ,1,8,12com.google.javascript.jscomp.PhaseOptimizer$Loop@76885bb7 ,1,90,2com.google.javascript.jscomp.PhaseOptimizer$Loop@1d99e1a0 ,1,44,1com.google.javascript.jscomp.PhaseOptimizer$Loop@520752e6 ,1,57,4collapseVariableDeclarations ,19,34,0com.google.javascript.jscomp.PhaseOptimizer$Loop@34330e62 ,1,136,8com.google.javascript.jscomp.PhaseOptimizer$Loop@3830aeb7 ,1,34,1renameLabels ,1,55,3com.google.javascript.jscomp.PhaseOptimizer$Loop@27343ec7 ,1,183,8com.google.javascript.jscomp.PhaseOptimizer$Loop@571b70f ,1,112,13com.google.javascript.jscomp.PhaseOptimizer$Loop@4e145627 ,1,196,2com.google.javascript.jscomp.PhaseOptimizer$Loop@66c07ca9 ,1,44,2com.google.javascript.jscomp.PhaseOptimizer$Loop@79b77d0d ,1,91,2com.google.javascript.jscomp.PhaseOptimizer$Loop@7067654b ,1,30,1com.google.javascript.jscomp.PhaseOptimizer$Loop@3fc939d3 ,1,62,3com.google.javascript.jscomp.PhaseOptimizer$Loop@3d19c8b6 ,1,13,16com.google.javascript.jscomp.PhaseOptimizer$Loop@777e11e0 ,1,1,3com.google.javascript.jscomp.PhaseOptimizer$Loop@5e42c6fe ,1,1538,8com.google.javascript.jscomp.PhaseOptimizer$Loop@5680defc ,1,63,2coalesceVariableNames ,3,134,15renameProperties ,15,148,1com.google.javascript.jscomp.PhaseOptimizer$Loop@1c46368b ,1,3729,9com.google.javascript.jscomp.PhaseOptimizer$Loop@4f0e9663 ,1,64,0com.google.javascript.jscomp.PhaseOptimizer$Loop@520d4a4d ,1,318,145renameVars ,21,737,1exploitAssign ,3,18,1latePeepholeOptimizations ,20,523,1com.google.javascript.jscomp.PhaseOptimizer$Loop@328b3869 ,1,33,1collapseAnonymousFunctions ,4,5,0com.google.javascript.jscomp.PhaseOptimizer$Loop@1d4e8e69 ,1,215,25com.google.javascript.jscomp.PhaseOptimizer$Loop@5f217743 ,1,133,3com.google.javascript.jscomp.PhaseOptimizer$Loop@76f150ac ,1,7,5com.google.javascript.jscomp.PhaseOptimizer$Loop@226d2cce ,1,18,0com.google.javascript.jscomp.PhaseOptimizer$Loop@446c94ea ,1,126,7com.google.javascript.jscomp.PhaseOptimizer$Loop@4c8b52d ,1,16,0com.google.javascript.jscomp.PhaseOptimizer$Loop@5057d43b ,1,49,1flowSensitiveInlineVariables ,3,27,23
+Pass  name ,Number  of  times ,Average  reducing  code  amount ,Average  execution  time  (milliseconds)
+denormalize ,30 ,4 ,0
+com.google.javascript.jscomp.PhaseOptimizer$Loop@3cd987e2 ,1 ,61 ,10
+com.google.javascript.jscomp.PhaseOptimizer$Loop@5c650711 ,1 ,51 ,3
+smartNamePass ,6 ,56 ,14
+com.google.javascript.jscomp.PhaseOptimizer$Loop@916916a ,1 ,45 ,0
+com.google.javascript.jscomp.PhaseOptimizer$Loop@227a51b8 ,1 ,8 ,12
+com.google.javascript.jscomp.PhaseOptimizer$Loop@76885bb7 ,1 ,90 ,2
+com.google.javascript.jscomp.PhaseOptimizer$Loop@1d99e1a0 ,1 ,44 ,1
+com.google.javascript.jscomp.PhaseOptimizer$Loop@520752e6 ,1 ,57 ,4
+collapseVariableDeclarations ,19 ,34 ,0
+com.google.javascript.jscomp.PhaseOptimizer$Loop@34330e62 ,1 ,136 ,8
+com.google.javascript.jscomp.PhaseOptimizer$Loop@3830aeb7 ,1 ,34 ,1
+renameLabels ,1 ,55 ,3
+com.google.javascript.jscomp.PhaseOptimizer$Loop@27343ec7 ,1 ,183 ,8
+com.google.javascript.jscomp.PhaseOptimizer$Loop@571b70f ,1 ,112 ,13
+com.google.javascript.jscomp.PhaseOptimizer$Loop@4e145627 ,1 ,196 ,2
+com.google.javascript.jscomp.PhaseOptimizer$Loop@66c07ca9 ,1 ,44 ,2
+com.google.javascript.jscomp.PhaseOptimizer$Loop@79b77d0d ,1 ,91 ,2
+com.google.javascript.jscomp.PhaseOptimizer$Loop@7067654b ,1 ,30 ,1
+com.google.javascript.jscomp.PhaseOptimizer$Loop@3fc939d3 ,1 ,62 ,3
+com.google.javascript.jscomp.PhaseOptimizer$Loop@3d19c8b6 ,1 ,13 ,16
+com.google.javascript.jscomp.PhaseOptimizer$Loop@777e11e0 ,1 ,1 ,3
+com.google.javascript.jscomp.PhaseOptimizer$Loop@5e42c6fe ,1 ,1538 ,8
+com.google.javascript.jscomp.PhaseOptimizer$Loop@5680defc ,1 ,63 ,2
+coalesceVariableNames ,3 ,134 ,15
+renameProperties ,15 ,148 ,1
+com.google.javascript.jscomp.PhaseOptimizer$Loop@1c46368b ,1 ,3729 ,9
+com.google.javascript.jscomp.PhaseOptimizer$Loop@4f0e9663 ,1 ,64 ,0
+com.google.javascript.jscomp.PhaseOptimizer$Loop@520d4a4d ,1 ,318 ,145
+renameVars ,21 ,737 ,1
+exploitAssign ,3 ,18 ,1
+latePeepholeOptimizations ,20 ,523 ,1
+com.google.javascript.jscomp.PhaseOptimizer$Loop@328b3869 ,1 ,33 ,1
+collapseAnonymousFunctions ,4 ,5 ,0
+com.google.javascript.jscomp.PhaseOptimizer$Loop@1d4e8e69 ,1 ,215 ,25
+com.google.javascript.jscomp.PhaseOptimizer$Loop@5f217743 ,1 ,133 ,3
+com.google.javascript.jscomp.PhaseOptimizer$Loop@76f150ac ,1 ,7 ,5
+com.google.javascript.jscomp.PhaseOptimizer$Loop@226d2cce ,1 ,18 ,0
+com.google.javascript.jscomp.PhaseOptimizer$Loop@446c94ea ,1 ,126 ,7
+com.google.javascript.jscomp.PhaseOptimizer$Loop@4c8b52d ,1 ,16 ,0
+com.google.javascript.jscomp.PhaseOptimizer$Loop@5057d43b ,1 ,49 ,1
+flowSensitiveInlineVariables ,3 ,27 ,23

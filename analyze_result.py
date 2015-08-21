@@ -40,5 +40,26 @@ with open(path_results+'/working_time_passes.csv', 'rb') as csvfile:
                 
              csv_writer.writerow(newStr)
          csvfile.close()
+         
+         #get pareto-optimal set of passes
+         par_set = {}
+         csvfile = open(path_results+'/pareto_optimal_set.csv', 'w+')
+         csv_writer = csv.writer(csvfile, delimiter=' ', quoting=csv.QUOTE_NONE, escapechar=' ', quotechar='')
+         csv_writer.writerow(['Pass name',',Number of times',',Average reducing code amount'])
+         for key, value in result_dict.iteritems():
+             there_is = False
+             for key_comp, value_comp in result_dict.iteritems():
+                 if value[0] < value_comp[0] and value[1] < value_comp[1]:
+                     there_is = True
+             if there_is == False:
+                 par_set.setdefault(key, value)
+                 newStr = []
+                 newStr.append(key.replace('pass:','').strip())
+                 newStr.append(',' + str(value[0]))
+                 newStr.append(',' + str(value[1]))
+                 csv_writer.writerow(newStr)
+         csvfile.close()
+                   
+         
      
      print 'finish'        
