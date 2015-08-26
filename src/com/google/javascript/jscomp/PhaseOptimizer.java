@@ -208,25 +208,33 @@ class PhaseOptimizer implements CompilerPass {
 			progress = progressRange.initialValue;
 		}
 		for (CompilerPass pass : passes) {
-			
+
+			// ilyushin
 			int sizeBefore = this.compiler.toSource(this.jsRoot).length();
-			
 			long startTime = System.currentTimeMillis();
+			// ilyushin
+
 			pass.process(externs, root);
+
+			// ilyushin
 			long stopTime = System.currentTimeMillis();
-		    long elapsedTime = stopTime - startTime;
-		   
-			try {
-				this.compiler.ResultFile.append(this.compiler.NameSourceFile+","
-			+ pass.toString()+","+ String.valueOf(elapsedTime)+","+String.valueOf(sizeBefore)+","+String.valueOf(this.compiler.toSource(this.jsRoot).length()));
-				this.compiler.ResultFile.append("\n");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			long elapsedTime = stopTime - startTime;
+
+			if (!pass.toString().contains("com.google.javascript.jscomp.PhaseOptimizer$Loop@")) {
+				try {
+					this.compiler.ResultFile
+							.append(this.compiler.NameSourceFile + "," + pass.toString().replace("pass: ", "") + ","
+									+ String.valueOf(elapsedTime) + "," + String.valueOf(sizeBefore) + ","
+									+ String.valueOf(this.compiler.toSource(this.jsRoot).length()));
+					this.compiler.ResultFile.append("\n");
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
-		    
-		    
-		    if (hasHaltingErrors()) {
+			// ilyushin
+
+			if (hasHaltingErrors()) {
 				return;
 			}
 		}
@@ -471,7 +479,28 @@ class PhaseOptimizer implements CompilerPass {
 										&& madeChanges.contains(pass))) {
 							timestamp++;
 							currentPass = pass;
+
+							// ilyushin
+							int sizeBefore = compiler.toSource(jsRoot).length();
+							long startTime = System.currentTimeMillis();
+							// ilyushin
 							pass.process(externs, root);
+							// ilyushin
+							long stopTime = System.currentTimeMillis();
+							long elapsedTime = stopTime - startTime;
+
+							try {
+								compiler.ResultFile.append(compiler.NameSourceFile + "," 
+										+ pass.toString().replace("pass: ", "") + "," + String.valueOf(elapsedTime)
+										+ "," + String.valueOf(sizeBefore) + ","
+										+ String.valueOf(compiler.toSource(jsRoot).length())+ ","+ this.toString());
+								compiler.ResultFile.append("\n");
+							} catch (IOException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+							// ilyushin
+
 							runInPrevIter.add(pass);
 							lastRuns.put(pass, timestamp);
 							if (hasHaltingErrors()) {

@@ -99,16 +99,16 @@ public final class closure_run {
 
 			List<File> listFiles = getJSFiles();
 			if (!listFiles.isEmpty()) {
-				
+
 				fileWriter = new FileWriter(pathResultFile);
-				//Write the CSV file header
-				fileWriter.append("FileName,PassName,Time,SizeBefore,SizeAfter");
+				// Write the CSV file header
+				fileWriter.append("FileName,PassName,Time,SizeBefore,SizeAfter,Name group of passes");
 				fileWriter.append("\n");
-				
+
 				for (File element : listFiles) {
 					compile(element, resultFolder, fileWriter);
 				}
-				
+
 				try {
 					fileWriter.flush();
 					fileWriter.close();
