@@ -215,7 +215,7 @@ class PhaseOptimizer implements CompilerPass {
 			// ilyushin
 
 			pass.process(externs, root);
-
+			
 			// ilyushin
 			long stopTime = System.currentTimeMillis();
 			long elapsedTime = stopTime - startTime;
@@ -484,7 +484,9 @@ class PhaseOptimizer implements CompilerPass {
 							int sizeBefore = compiler.toSource(jsRoot).length();
 							long startTime = System.currentTimeMillis();
 							// ilyushin
+							
 							pass.process(externs, root);
+							
 							// ilyushin
 							long stopTime = System.currentTimeMillis();
 							long elapsedTime = stopTime - startTime;
